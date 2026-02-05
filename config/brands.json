@@ -6,172 +6,165 @@
     "secondary": "#F97316",
     "background": "#0F172A"
   },
-  "paypro": {
-    "name": "PayPro",
-    "logo": "/logos/paypro.svg",
+  "wowbet": {
+    "name": "WowBet",
+    "logo": "/logos/wowbet.svg",
     "primary": "#10B981",
     "secondary": "#F59E0B",
     "background": "#022C22"
   },
-  "cashflow": {
-    "name": "CashFlow",
-    "logo": "/logos/cashflow.svg",
+  "ultrapari": {
+    "name": "UltraPari",
+    "logo": "/logos/ultrapari.svg",
     "primary": "#8B5CF6",
     "secondary": "#EC4899",
     "background": "#1E1B4B"
   },
-  "quickpay": {
-    "name": "QuickPay",
-    "logo": "/logos/quickpay.svg",
+  "1xslots": {
+    "name": "1xSlots",
+    "logo": "/logos/1xslots.svg",
     "primary": "#EF4444",
     "secondary": "#FBBF24",
     "background": "#1C1917"
   },
-  "moneybox": {
-    "name": "MoneyBox",
-    "logo": "/logos/moneybox.svg",
+  "apuesta360": {
+    "name": "Apuesta 360",
+    "logo": "/logos/apuesta360.svg",
     "primary": "#06B6D4",
     "secondary": "#A855F7",
     "background": "#0C1222"
   },
-  "fastcash": {
-    "name": "FastCash",
-    "logo": "/logos/fastcash.svg",
+  "betjam": {
+    "name": "BetJam",
+    "logo": "/logos/betjam.svg",
     "primary": "#F43F5E",
     "secondary": "#0EA5E9",
     "background": "#18181B"
   },
-  "payzone": {
-    "name": "PayZone",
-    "logo": "/logos/payzone.svg",
+  "dbbet": {
+    "name": "DBbet",
+    "logo": "/logos/dbbet.svg",
     "primary": "#84CC16",
     "secondary": "#F472B6",
     "background": "#1A2E05"
   },
-  "coinspot": {
-    "name": "CoinSpot",
-    "logo": "/logos/coinspot.svg",
+  "fairpari": {
+    "name": "FairPari",
+    "logo": "/logos/fairpari.svg",
     "primary": "#FBBF24",
     "secondary": "#3B82F6",
     "background": "#292524"
   },
-  "moneypro": {
-    "name": "MoneyPro",
-    "logo": "/logos/moneypro.svg",
+  "fastpari": {
+    "name": "FastPari",
+    "logo": "/logos/fastpari.svg",
     "primary": "#14B8A6",
     "secondary": "#F97316",
     "background": "#042F2E"
   },
-  "payfast": {
-    "name": "PayFast",
-    "logo": "/logos/payfast.svg",
+  "funpari": {
+    "name": "FunPari",
+    "logo": "/logos/funpari.svg",
     "primary": "#E11D48",
     "secondary": "#22D3EE",
     "background": "#1F2937"
   },
-  "cashpoint": {
-    "name": "CashPoint",
-    "logo": "/logos/cashpoint.svg",
+  "jvspin": {
+    "name": "JVSpin",
+    "logo": "/logos/jvspin.svg",
     "primary": "#7C3AED",
     "secondary": "#34D399",
     "background": "#0D0D1A"
   },
-  "rapidpay": {
-    "name": "RapidPay",
-    "logo": "/logos/rapidpay.svg",
+  "paripulse": {
+    "name": "PariPulse",
+    "logo": "/logos/paripulse.svg",
     "primary": "#0891B2",
     "secondary": "#FB923C",
     "background": "#0A1628"
   },
-  "paylink": {
-    "name": "PayLink",
-    "logo": "/logos/paylink.svg",
+  "yohoho": {
+    "name": "Yohoho.bet",
+    "logo": "/logos/yohoho.svg",
     "primary": "#DB2777",
     "secondary": "#4ADE80",
     "background": "#27272A"
   },
-  "moneyhub": {
-    "name": "MoneyHub",
-    "logo": "/logos/moneyhub.svg",
+  "lilbet": {
+    "name": "LilBet",
+    "logo": "/logos/lilbet.svg",
     "primary": "#059669",
     "secondary": "#F472B6",
     "background": "#052E16"
   },
-  "cashgo": {
-    "name": "CashGo",
-    "logo": "/logos/cashgo.svg",
+  "betongame": {
+    "name": "BetOnGame",
+    "logo": "/logos/betongame.svg",
     "primary": "#DC2626",
     "secondary": "#38BDF8",
     "background": "#171717"
   },
-  "paybox": {
-    "name": "PayBox",
-    "logo": "/logos/paybox.svg",
+  "wepari": {
+    "name": "WePari",
+    "logo": "/logos/wepari.svg",
     "primary": "#4F46E5",
     "secondary": "#FCD34D",
     "background": "#1E1E2E"
   },
-  "quickcash": {
-    "name": "QuickCash",
-    "logo": "/logos/quickcash.svg",
+  "coldbet": {
+    "name": "ColdBet",
+    "logo": "/logos/coldbet.svg",
     "primary": "#0D9488",
     "secondary": "#E879F9",
     "background": "#0F2830"
   },
-  "paypoint": {
-    "name": "PayPoint",
-    "logo": "/logos/paypoint.svg",
+  "luckypari": {
+    "name": "LuckyPari",
+    "logo": "/logos/luckypari.svg",
     "primary": "#EA580C",
     "secondary": "#818CF8",
     "background": "#1C1412"
   },
-  "moneygo": {
-    "name": "MoneyGo",
-    "logo": "/logos/moneygo.svg",
+  "winebet": {
+    "name": "Winebet",
+    "logo": "/logos/winebet.svg",
     "primary": "#2DD4BF",
     "secondary": "#FB7185",
     "background": "#0D2626"
   },
-  "cashlink": {
-    "name": "CashLink",
-    "logo": "/logos/cashlink.svg",
+  "wekawin": {
+    "name": "Wekawin",
+    "logo": "/logos/wekawin.svg",
     "primary": "#A21CAF",
     "secondary": "#4ADE80",
     "background": "#1A0A1F"
   },
-  "paymate": {
-    "name": "PayMate",
-    "logo": "/logos/paymate.svg",
+  "b86": {
+    "name": "B86.bet",
+    "logo": "/logos/b86.svg",
     "primary": "#0284C7",
     "secondary": "#F59E0B",
     "background": "#0C1929"
   },
-  "fastpay": {
-    "name": "FastPay",
-    "logo": "/logos/fastpay.svg",
+  "grandpari": {
+    "name": "GrandPari",
+    "logo": "/logos/grandpari.svg",
     "primary": "#65A30D",
     "secondary": "#F43F5E",
     "background": "#1A2E0A"
   },
-  "coinpay": {
-    "name": "CoinPay",
-    "logo": "/logos/coinpay.svg",
+  "greenbet": {
+    "name": "GreenBet",
+    "logo": "/logos/greenbet.svg",
     "primary": "#D946EF",
     "secondary": "#22C55E",
     "background": "#1E0A2E"
   },
-  "cashmate": {
-    "name": "CashMate",
-    "logo": "/logos/cashmate.svg",
+  "secretbet": {
+    "name": "SecretBet",
+    "logo": "/logos/secretbet.svg",
     "primary": "#0369A1",
     "secondary": "#FBBF24",
     "background": "#0A1929"
-  },
-  "payplus": {
-    "name": "PayPlus",
-    "logo": "/logos/payplus.svg",
-    "primary": "#C026D3",
-    "secondary": "#34D399",
-    "background": "#1A0A24"
   }
 }

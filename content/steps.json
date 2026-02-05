@@ -1,29 +1,49 @@
 {
-  "languages": ["ru", "en"],
-  "defaultLanguage": "ru",
+  "languages": ["en", "ru", "ar", "uz", "bn", "fr"],
+  "defaultLanguage": "en",
   "languageNames": {
+    "en": "English",
     "ru": "Русский",
-    "en": "English"
+    "ar": "العربية",
+    "uz": "O'zbek",
+    "bn": "বাংলা",
+    "fr": "Français"
   },
   "steps": [
     {
       "id": "what-is",
       "order": 1,
       "title": {
-        "ru": "Что такое {{brand}}?",
-        "en": "What is {{brand}}?"
+        "en": "What is Mobcash?",
+        "ru": "Что такое Mobcash?",
+        "ar": "ما هو Mobcash؟",
+        "uz": "Mobcash nima?",
+        "bn": "Mobcash কি?",
+        "fr": "Qu'est-ce que Mobcash ?"
       },
       "content": {
-        "ru": "Приложение {{brand}} - это касса в твоем телефоне.\n\nТы можешь:\n• Пополнять аккаунты игроков\n• Выводить выигрыши\n• Управлять своим доходом!\n\nМы платим процент с каждой транзакции: чем больше сумма операций, тем выше твой доход.",
-        "en": "{{brand}} app is a cash register in your phone.\n\nYou can:\n• Top up player accounts\n• Withdraw winnings\n• Manage your income!\n\nWe pay a percentage of each transaction: the higher the transaction amount, the higher your income."
+        "en": "Mobcash app is a cash register in your phone for processing deposits and withdrawals for {{brand}} players.\n\nYou can:\n• Top up {{brand}} player accounts\n• Withdraw {{brand}} player winnings\n• Manage your income!\n\n{{brand}} pays a percentage of each transaction: the higher the transaction amount, the higher your income.",
+        "ru": "Приложение Mobcash - это касса в твоем телефоне для работы с пополнениями и выводами игроков на {{brand}}.\n\nТы можешь:\n• Пополнять аккаунты игроков {{brand}}\n• Выводить выигрыши игроков {{brand}}\n• Управлять своим доходом!\n\n{{brand}} платит процент с каждой транзакции: чем больше сумма операций, тем выше твой доход.",
+        "ar": "تطبيق Mobcash هو صندوق نقدي في هاتفك لمعالجة الإيداعات والسحوبات للاعبي {{brand}}.\n\nيمكنك:\n• شحن حسابات لاعبي {{brand}}\n• سحب أرباح لاعبي {{brand}}\n• إدارة دخلك!\n\n{{brand}} يدفع نسبة مئوية من كل معاملة: كلما زاد مبلغ المعاملة، زاد دخلك.",
+        "uz": "Mobcash ilovasi - bu {{brand}} o'yinchilarining depozitlari va yechimlarini qayta ishlash uchun telefoningizdagi kassa.\n\nSiz qila olasiz:\n• {{brand}} o'yinchilarining hisoblarini to'ldirish\n• {{brand}} o'yinchilarining yutuqlarini yechish\n• Daromadingizni boshqarish!\n\n{{brand}} har bir tranzaksiyadan foiz to'laydi: tranzaksiya summasi qanchalik ko'p bo'lsa, daromadingiz shunchalik yuqori bo'ladi.",
+        "bn": "Mobcash অ্যাপ হল আপনার ফোনে একটি ক্যাশ রেজিস্টার যা {{brand}} খেলোয়াড়দের জমা এবং উত্তোলন প্রক্রিয়া করার জন্য।\n\nআপনি করতে পারেন:\n• {{brand}} খেলোয়াড়দের অ্যাকাউন্ট টপ আপ করুন\n• {{brand}} খেলোয়াড়দের জয় উত্তোলন করুন\n• আপনার আয় পরিচালনা করুন!\n\n{{brand}} প্রতিটি লেনদেনের একটি শতাংশ প্রদান করে: লেনদেনের পরিমাণ যত বেশি, আপনার আয় তত বেশি।",
+        "fr": "L'application Mobcash est une caisse enregistreuse dans votre téléphone pour traiter les dépôts et retraits des joueurs {{brand}}.\n\nVous pouvez :\n• Recharger les comptes des joueurs {{brand}}\n• Retirer les gains des joueurs {{brand}}\n• Gérer vos revenus !\n\n{{brand}} paie un pourcentage de chaque transaction : plus le montant de la transaction est élevé, plus vos revenus sont importants."
       },
       "notes": {
-        "ru": "{{brand}} доступен только на устройствах с операционной системой Android.",
-        "en": "{{brand}} is only available on Android devices."
+        "en": "Mobcash is only available on Android devices.",
+        "ru": "Mobcash доступен только на устройствах с операционной системой Android.",
+        "ar": "Mobcash متاح فقط على أجهزة Android.",
+        "uz": "Mobcash faqat Android qurilmalarida mavjud.",
+        "bn": "Mobcash শুধুমাত্র Android ডিভাইসে উপলব্ধ।",
+        "fr": "Mobcash est disponible uniquement sur les appareils Android."
       },
       "warning": {
-        "ru": "Комиссию платит сайт, а не игроки!",
-        "en": "Commission is paid by the site, not players!"
+        "en": "Commission is paid by {{brand}}, not by players!",
+        "ru": "Комиссию платит {{brand}}, а не игроки!",
+        "ar": "العمولة يدفعها {{brand}}، وليس اللاعبون!",
+        "uz": "Komissiyani {{brand}} to'laydi, o'yinchilar emas!",
+        "bn": "কমিশন {{brand}} দেয়, খেলোয়াড়রা নয়!",
+        "fr": "La commission est payée par {{brand}}, pas par les joueurs !"
       },
       "image": "/images/step-01.png"
     },
@@ -31,32 +51,72 @@
       "id": "find-players",
       "order": 2,
       "title": {
-        "ru": "Ты легко найдёшь игроков",
-        "en": "You'll easily find players"
+        "en": "You'll easily find {{brand}} players",
+        "ru": "Ты легко найдёшь игроков {{brand}}",
+        "ar": "ستجد لاعبي {{brand}} بسهولة",
+        "uz": "Siz {{brand}} o'yinchilarini osonlikcha topasiz",
+        "bn": "আপনি সহজেই {{brand}} খেলোয়াড় খুঁজে পাবেন",
+        "fr": "Vous trouverez facilement des joueurs {{brand}}"
       },
       "content": {
+        "en": "If you have:",
         "ru": "Если у тебя есть:",
-        "en": "If you have:"
+        "ar": "إذا كان لديك:",
+        "uz": "Agar sizda bo'lsa:",
+        "bn": "যদি আপনার থাকে:",
+        "fr": "Si vous avez :"
       },
       "listItems": {
-        "ru": [
-          "Магазин, бар, кафе или иная точка продаж",
-          "Пункт приёма платежей",
-          "Знакомые, что хотят сделать ставки",
-          "Ресурс в соцсетях про ставки (каналы, группы, сообщества)",
-          "Онлайн-обменник"
-        ],
         "en": [
           "Shop, bar, cafe or other point of sale",
           "Payment acceptance point",
-          "Friends who want to place bets",
+          "Friends who want to place bets on {{brand}}",
           "Social media resource about betting (channels, groups, communities)",
           "Online exchanger"
+        ],
+        "ru": [
+          "Магазин, бар, кафе или иная точка продаж",
+          "Пункт приёма платежей",
+          "Знакомые, что хотят делать ставки на {{brand}}",
+          "Ресурс в соцсетях про ставки (каналы, группы, сообщества)",
+          "Онлайн-обменник"
+        ],
+        "ar": [
+          "متجر أو بار أو مقهى أو نقطة بيع أخرى",
+          "نقطة قبول الدفع",
+          "أصدقاء يريدون المراهنة على {{brand}}",
+          "مورد وسائل التواصل الاجتماعي حول المراهنات (قنوات، مجموعات، مجتمعات)",
+          "مبادل عبر الإنترنت"
+        ],
+        "uz": [
+          "Do'kon, bar, kafe yoki boshqa savdo nuqtasi",
+          "To'lovlarni qabul qilish punkti",
+          "{{brand}}da pul tikishni xohlaydigan tanishlar",
+          "Tikish haqida ijtimoiy tarmoqlardagi resurs (kanallar, guruhlar, jamiyatlar)",
+          "Onlayn ayirboshlash punkti"
+        ],
+        "bn": [
+          "দোকান, বার, ক্যাফে বা অন্যান্য বিক্রয় কেন্দ্র",
+          "পেমেন্ট গ্রহণ কেন্দ্র",
+          "বন্ধুরা যারা {{brand}}-এ বাজি ধরতে চান",
+          "বেটিং সম্পর্কে সোশ্যাল মিডিয়া রিসোর্স (চ্যানেল, গ্রুপ, কমিউনিটি)",
+          "অনলাইন এক্সচেঞ্জার"
+        ],
+        "fr": [
+          "Magasin, bar, café ou autre point de vente",
+          "Point d'acceptation des paiements",
+          "Amis qui veulent parier sur {{brand}}",
+          "Ressource de médias sociaux sur les paris (chaînes, groupes, communautés)",
+          "Échangeur en ligne"
         ]
       },
       "notes": {
-        "ru": "С помощью партнёрской программы ты можешь получать процент за привлечённых игроков. Чтобы стать партнёром, напиши менеджеру.",
-        "en": "With the affiliate program, you can earn a percentage for referred players. To become a partner, contact your manager."
+        "en": "With the {{brand}} affiliate program, you can earn a percentage for referred players. To become a partner, contact Mobcash manager.",
+        "ru": "С помощью партнёрской программы {{brand}} ты можешь получать процент за привлечённых игроков. Чтобы стать партнёром, напиши менеджеру Mobcash.",
+        "ar": "مع برنامج شراكة {{brand}}، يمكنك كسب نسبة مئوية للاعبين المُحالين. لتصبح شريكًا، اتصل بمدير Mobcash.",
+        "uz": "{{brand}} hamkorlik dasturi yordamida siz jalb qilingan o'yinchilar uchun foiz olishingiz mumkin. Hamkor bo'lish uchun Mobcash menejeriga yozing.",
+        "bn": "{{brand}} অ্যাফিলিয়েট প্রোগ্রামের মাধ্যমে, আপনি রেফার করা খেলোয়াড়দের জন্য একটি শতাংশ উপার্জন করতে পারেন। অংশীদার হতে, Mobcash ম্যানেজারের সাথে যোগাযোগ করুন।",
+        "fr": "Avec le programme d'affiliation {{brand}}, vous pouvez gagner un pourcentage pour les joueurs référés. Pour devenir partenaire, contactez le gestionnaire Mobcash."
       },
       "image": "/images/step-02.png"
     },
@@ -64,21 +124,45 @@
       "id": "limit",
       "order": 3,
       "title": {
+        "en": "Limit",
         "ru": "Лимит",
-        "en": "Limit"
+        "ar": "الحد",
+        "uz": "Limit",
+        "bn": "সীমা",
+        "fr": "Limite"
       },
       "content": {
-        "ru": "Лимит - сумма, используемая агентом для пополнений аккаунтов игроков.",
-        "en": "Limit - the amount used by the agent to top up player accounts."
+        "en": "Limit is the amount used by the agent to top up {{brand}} player accounts. When a player gives you money, you spend the limit to top up their account.",
+        "ru": "Лимит - сумма, используемая агентом для пополнений аккаунтов игроков {{brand}}. Когда игрок передаёт тебе деньги, ты тратишь лимит на пополнение его аккаунта.",
+        "ar": "الحد هو المبلغ الذي يستخدمه الوكيل لشحن حسابات لاعبي {{brand}}. عندما يعطيك اللاعب المال، تنفق الحد لشحن حسابه.",
+        "uz": "Limit - bu agent {{brand}} o'yinchilarining hisoblarini to'ldirish uchun foydalanadigan summa. O'yinchi sizga pul berganda, siz uning hisobini to'ldirish uchun limitni sarflaysiz.",
+        "bn": "সীমা হল সেই পরিমাণ যা এজেন্ট {{brand}} খেলোয়াড়দের অ্যাকাউন্ট টপ আপ করতে ব্যবহার করে। যখন একজন খেলোয়াড় আপনাকে টাকা দেয়, আপনি তাদের অ্যাকাউন্ট টপ আপ করতে সীমা খরচ করেন।",
+        "fr": "La limite est le montant utilisé par l'agent pour recharger les comptes des joueurs {{brand}}. Lorsqu'un joueur vous donne de l'argent, vous dépensez la limite pour recharger son compte."
       },
       "columns": {
-        "ru": {
-          "decrease": "При депозите игроку твой лимит уменьшается",
-          "increase": "Как увеличивается лимит:\n• Предоплаты - твои внесённые средства\n• Комиссии - твой заработок от операций\n• Выводы - запросы игроков на получение денег"
-        },
         "en": {
           "decrease": "When depositing to a player, your limit decreases",
-          "increase": "How limit increases:\n• Prepayments - your deposited funds\n• Commissions - your earnings from operations\n• Withdrawals - player requests to receive money"
+          "increase": "How limit increases:\n• Prepayments - your funds deposited to {{brand}}\n• Commissions - your earnings from operations\n• Withdrawals - {{brand}} player requests to receive money"
+        },
+        "ru": {
+          "decrease": "При депозите игроку твой лимит уменьшается",
+          "increase": "Как увеличивается лимит:\n• Предоплаты - твои внесённые средства на {{brand}}\n• Комиссии - твой заработок от операций\n• Выводы - запросы игроков {{brand}} на получение денег"
+        },
+        "ar": {
+          "decrease": "عند الإيداع للاعب، ينخفض حدك",
+          "increase": "كيف يزيد الحد:\n• المدفوعات المسبقة - أموالك المودعة في {{brand}}\n• العمولات - أرباحك من العمليات\n• السحوبات - طلبات لاعبي {{brand}} لاستلام الأموال"
+        },
+        "uz": {
+          "decrease": "O'yinchiga depozit qilganda, limitingiz kamayadi",
+          "increase": "Limit qanday oshadi:\n• Oldindan to'lovlar - {{brand}}ga kiritilgan mablag'laringiz\n• Komissiyalar - operatsiyalardan olingan daromadingiz\n• Yechimlar - {{brand}} o'yinchilarining pul olish so'rovlari"
+        },
+        "bn": {
+          "decrease": "একজন খেলোয়াড়কে জমা দেওয়ার সময়, আপনার সীমা কমে যায়",
+          "increase": "কীভাবে সীমা বাড়ে:\n• প্রিপেমেন্ট - {{brand}}-এ আপনার জমা করা তহবিল\n• কমিশন - অপারেশন থেকে আপনার উপার্জন\n• উত্তোলন - {{brand}} খেলোয়াড়দের টাকা পাওয়ার অনুরোধ"
+        },
+        "fr": {
+          "decrease": "Lors d'un dépôt à un joueur, votre limite diminue",
+          "increase": "Comment la limite augmente :\n• Prépaiements - vos fonds déposés sur {{brand}}\n• Commissions - vos gains des opérations\n• Retraits - demandes des joueurs {{brand}} pour recevoir de l'argent"
         }
       },
       "image": "/images/step-03.png"
@@ -87,26 +171,54 @@
       "id": "balance",
       "order": 4,
       "title": {
+        "en": "Balance",
         "ru": "Баланс",
-        "en": "Balance"
+        "ar": "الرصيد",
+        "uz": "Balans",
+        "bn": "ব্যালেন্স",
+        "fr": "Solde"
       },
       "content": {
-        "ru": "Баланс - доступная для выводов игрокам сумма, разница между депозитами и выводами.",
-        "en": "Balance - the amount available for player withdrawals, the difference between deposits and withdrawals."
+        "en": "Balance is the amount available for {{brand}} player withdrawals, the difference between deposits and withdrawals.",
+        "ru": "Баланс - доступная для выводов игрокам {{brand}} сумма, разница между депозитами и выводами.",
+        "ar": "الرصيد هو المبلغ المتاح لسحوبات لاعبي {{brand}}، الفرق بين الإيداعات والسحوبات.",
+        "uz": "Balans - {{brand}} o'yinchilariga yechish uchun mavjud summa, depozitlar va yechimlar o'rtasidagi farq.",
+        "bn": "ব্যালেন্স হল {{brand}} খেলোয়াড়দের উত্তোলনের জন্য উপলব্ধ পরিমাণ, জমা এবং উত্তোলনের মধ্যে পার্থক্য।",
+        "fr": "Le solde est le montant disponible pour les retraits des joueurs {{brand}}, la différence entre les dépôts et les retraits."
       },
       "columns": {
-        "ru": {
-          "decrease": "Когда ты выводишь деньги игроку, баланс на кассе уменьшается",
-          "increase": "Когда ты пополняешь аккаунт игрока, баланс на кассе увеличивается"
-        },
         "en": {
-          "decrease": "When you withdraw money to a player, the balance decreases",
-          "increase": "When you top up a player's account, the balance increases"
+          "decrease": "When you withdraw money to a {{brand}} player, the register balance decreases",
+          "increase": "When you top up a {{brand}} player's account, the register balance increases"
+        },
+        "ru": {
+          "decrease": "Когда ты выводишь деньги игроку {{brand}}, баланс на кассе уменьшается",
+          "increase": "Когда ты пополняешь аккаунт игрока {{brand}}, баланс на кассе увеличивается"
+        },
+        "ar": {
+          "decrease": "عندما تسحب المال للاعب {{brand}}، ينخفض رصيد الصندوق",
+          "increase": "عندما تشحن حساب لاعب {{brand}}، يزيد رصيد الصندوق"
+        },
+        "uz": {
+          "decrease": "{{brand}} o'yinchisiga pul yechganingizda, kassa balansi kamayadi",
+          "increase": "{{brand}} o'yinchisining hisobini to'ldirganingizda, kassa balansi oshadi"
+        },
+        "bn": {
+          "decrease": "যখন আপনি একজন {{brand}} খেলোয়াড়কে টাকা উত্তোলন করেন, রেজিস্টার ব্যালেন্স কমে যায়",
+          "increase": "যখন আপনি একজন {{brand}} খেলোয়াড়ের অ্যাকাউন্ট টপ আপ করেন, রেজিস্টার ব্যালেন্স বাড়ে"
+        },
+        "fr": {
+          "decrease": "Lorsque vous retirez de l'argent à un joueur {{brand}}, le solde de la caisse diminue",
+          "increase": "Lorsque vous rechargez le compte d'un joueur {{brand}}, le solde de la caisse augmente"
         }
       },
       "notes": {
-        "ru": "Баланс не может быть ниже нуля. Если нужно уменьшить баланс, напиши менеджеру в Reddy.",
-        "en": "Balance cannot be below zero. If you need to reduce balance, contact your manager in Reddy."
+        "en": "Balance cannot be below zero. If you need to reduce balance, contact Mobcash manager in Reddy.",
+        "ru": "Баланс не может быть ниже нуля. Если нужно уменьшить баланс, напиши менеджеру Mobcash в Reddy.",
+        "ar": "لا يمكن أن يكون الرصيد أقل من الصفر. إذا كنت بحاجة إلى تقليل الرصيد، اتصل بمدير Mobcash في Reddy.",
+        "uz": "Balans noldan past bo'lishi mumkin emas. Agar balansni kamaytirish kerak bo'lsa, Reddy'da Mobcash menejeriga yozing.",
+        "bn": "ব্যালেন্স শূন্যের নিচে হতে পারে না। যদি আপনার ব্যালেন্স কমাতে হয়, Reddy-তে Mobcash ম্যানেজারের সাথে যোগাযোগ করুন।",
+        "fr": "Le solde ne peut pas être inférieur à zéro. Si vous devez réduire le solde, contactez le gestionnaire Mobcash dans Reddy."
       },
       "image": "/images/step-04.png"
     },
@@ -114,36 +226,80 @@
       "id": "deposit",
       "order": 5,
       "title": {
-        "ru": "Пополнение игрокам",
-        "en": "Depositing to players"
+        "en": "Depositing to {{brand}} players",
+        "ru": "Пополнение игрокам {{brand}}",
+        "ar": "الإيداع للاعبي {{brand}}",
+        "uz": "{{brand}} o'yinchilariga depozit qilish",
+        "bn": "{{brand}} খেলোয়াড়দের জমা দেওয়া",
+        "fr": "Dépôt aux joueurs {{brand}}"
       },
       "content": {
-        "ru": "Процесс пополнения аккаунта игрока:",
-        "en": "Player account top-up process:"
+        "en": "{{brand}} player account top-up process:",
+        "ru": "Процесс пополнения аккаунта игрока {{brand}}:",
+        "ar": "عملية شحن حساب لاعب {{brand}}:",
+        "uz": "{{brand}} o'yinchisi hisobini to'ldirish jarayoni:",
+        "bn": "{{brand}} খেলোয়াড়ের অ্যাকাউন্ট টপ আপ প্রক্রিয়া:",
+        "fr": "Processus de recharge du compte joueur {{brand}} :"
       },
       "numberedSteps": {
-        "ru": [
-          "Согласуй с игроком сумму депозита и способ передачи",
-          "Игрок передаёт тебе деньги",
-          "В приложении {{brand}} нажми \"Пополнить аккаунт\"",
-          "Введи ID игрока",
-          "Введи сумму в валюте кассы. Сумма не должна превышать лимит"
-        ],
         "en": [
           "Agree with the player on the deposit amount and transfer method",
           "Player gives you money",
-          "In {{brand}} app, tap \"Top up account\"",
-          "Enter player ID",
+          "In Mobcash app, tap \"Top up account\"",
+          "Enter {{brand}} player ID",
           "Enter amount in register currency. Amount must not exceed limit"
+        ],
+        "ru": [
+          "Согласуй с игроком сумму депозита и способ передачи",
+          "Игрок передаёт тебе деньги",
+          "В приложении Mobcash нажми \"Пополнить аккаунт\"",
+          "Введи ID игрока {{brand}}",
+          "Введи сумму в валюте кассы. Сумма не должна превышать лимит"
+        ],
+        "ar": [
+          "اتفق مع اللاعب على مبلغ الإيداع وطريقة التحويل",
+          "يعطيك اللاعب المال",
+          "في تطبيق Mobcash، اضغط على \"شحن الحساب\"",
+          "أدخل معرف لاعب {{brand}}",
+          "أدخل المبلغ بعملة الصندوق. يجب ألا يتجاوز المبلغ الحد"
+        ],
+        "uz": [
+          "O'yinchi bilan depozit summasi va o'tkazish usulini kelishib oling",
+          "O'yinchi sizga pul beradi",
+          "Mobcash ilovasida \"Hisobni to'ldirish\" tugmasini bosing",
+          "{{brand}} o'yinchisining ID-sini kiriting",
+          "Kassa valyutasida summani kiriting. Summa limitdan oshmasligi kerak"
+        ],
+        "bn": [
+          "খেলোয়াড়ের সাথে জমার পরিমাণ এবং স্থানান্তর পদ্ধতি নিয়ে সম্মত হন",
+          "খেলোয়াড় আপনাকে টাকা দেয়",
+          "Mobcash অ্যাপে, \"অ্যাকাউন্ট টপ আপ\" ট্যাপ করুন",
+          "{{brand}} খেলোয়াড়ের ID লিখুন",
+          "রেজিস্টার মুদ্রায় পরিমাণ লিখুন। পরিমাণ অবশ্যই সীমা অতিক্রম করবে না"
+        ],
+        "fr": [
+          "Convenez avec le joueur du montant du dépôt et de la méthode de transfert",
+          "Le joueur vous donne l'argent",
+          "Dans l'application Mobcash, appuyez sur \"Recharger le compte\"",
+          "Entrez l'ID du joueur {{brand}}",
+          "Entrez le montant dans la devise de la caisse. Le montant ne doit pas dépasser la limite"
         ]
       },
       "notes": {
+        "en": "When depositing, register balance increases and limit decreases",
         "ru": "При пополнении баланс на кассе увеличивается, а лимит уменьшается",
-        "en": "When depositing, balance increases and limit decreases"
+        "ar": "عند الإيداع، يزيد رصيد الصندوق وينخفض الحد",
+        "uz": "Depozit qilganda, kassa balansi oshadi va limit kamayadi",
+        "bn": "জমা দেওয়ার সময়, রেজিস্টার ব্যালেন্স বাড়ে এবং সীমা কমে",
+        "fr": "Lors d'un dépôt, le solde de la caisse augmente et la limite diminue"
       },
       "warning": {
-        "ru": "Если игрок передал деньги, а ты не зачислил - это нарушение правил",
-        "en": "If a player gave you money and you didn't credit it - this is a rule violation"
+        "en": "Top up exactly the amount you received from the player. Charging commission from players is prohibited — commission is paid by {{brand}}!\n\nIf a player gave you money and you didn't credit it to their {{brand}} account — this is a rule violation",
+        "ru": "Пополняй ровно столько, сколько взял у игрока. Брать комиссию с игроков запрещено — комиссию платит {{brand}}!\n\nЕсли игрок передал деньги, а ты не зачислил на аккаунт {{brand}} - это нарушение правил",
+        "ar": "اشحن بالضبط المبلغ الذي استلمته من اللاعب. أخذ عمولة من اللاعبين ممنوع — العمولة يدفعها {{brand}}!\n\nإذا أعطاك اللاعب المال ولم تقيده في حسابه على {{brand}} — هذا انتهاك للقواعد",
+        "uz": "O'yinchidan olgan summangiz miqdorida to'ldiring. O'yinchilardan komissiya olish taqiqlangan — komissiyani {{brand}} to'laydi!\n\nAgar o'yinchi sizga pul bergan bo'lsa va siz uni {{brand}} hisobiga kiritmagan bo'lsangiz — bu qoidalarni buzishdir",
+        "bn": "খেলোয়াড়ের কাছ থেকে যে পরিমাণ পেয়েছেন ঠিক সেই পরিমাণ টপ আপ করুন। খেলোয়াড়দের কাছ থেকে কমিশন নেওয়া নিষিদ্ধ — কমিশন {{brand}} দেয়!\n\nযদি একজন খেলোয়াড় আপনাকে টাকা দেয় এবং আপনি তাদের {{brand}} অ্যাকাউন্টে জমা না করেন — এটি নিয়ম লঙ্ঘন",
+        "fr": "Rechargez exactement le montant que vous avez reçu du joueur. Facturer une commission aux joueurs est interdit — la commission est payée par {{brand}} !\n\nSi un joueur vous a donné de l'argent et que vous ne l'avez pas crédité sur son compte {{brand}} — c'est une violation des règles"
       },
       "image": "/images/step-05.png"
     },
@@ -151,42 +307,98 @@
       "id": "withdraw",
       "order": 6,
       "title": {
-        "ru": "Вывод игрокам",
-        "en": "Withdrawing to players"
+        "en": "Withdrawing to {{brand}} players",
+        "ru": "Вывод игрокам {{brand}}",
+        "ar": "السحب للاعبي {{brand}}",
+        "uz": "{{brand}} o'yinchilariga yechish",
+        "bn": "{{brand}} খেলোয়াড়দের উত্তোলন",
+        "fr": "Retrait aux joueurs {{brand}}"
       },
       "content": {
-        "ru": "Процесс вывода средств игроку:",
-        "en": "Player withdrawal process:"
+        "en": "{{brand}} player withdrawal process:",
+        "ru": "Процесс вывода средств игроку {{brand}}:",
+        "ar": "عملية سحب لاعب {{brand}}:",
+        "uz": "{{brand}} o'yinchisiga yechish jarayoni:",
+        "bn": "{{brand}} খেলোয়াড়ের উত্তোলন প্রক্রিয়া:",
+        "fr": "Processus de retrait du joueur {{brand}} :"
       },
       "numberedSteps": {
-        "ru": [
-          "Игрок открывает раздел вывода на платёжной странице",
-          "Находит кнопку «Наличные»",
-          "Вводит сумму, выбирает город и адрес вывода",
-          "Игрок получает подтверждение",
-          "Передаёт код вывода агенту",
-          "Нажми «Вывод средств» в приложении {{brand}}",
-          "Введи аккаунт и код, который предоставил игрок",
-          "Передай деньги игроку"
-        ],
         "en": [
-          "Player opens withdrawal section on payment page",
+          "Player opens withdrawal section on {{brand}} website",
           "Finds \"Cash\" button",
           "Enters amount, selects city and withdrawal address",
-          "Player receives confirmation",
+          "Player receives confirmation from {{brand}}",
           "Gives withdrawal code to agent",
-          "Tap \"Withdraw funds\" in {{brand}} app",
-          "Enter account and code provided by player",
+          "Tap \"Withdraw funds\" in Mobcash app",
+          "Enter {{brand}} account and code provided by player",
           "Give money to player"
+        ],
+        "ru": [
+          "Игрок открывает раздел вывода на сайте {{brand}}",
+          "Находит кнопку «Наличные»",
+          "Вводит сумму, выбирает город и адрес вывода",
+          "Игрок получает подтверждение от {{brand}}",
+          "Передаёт код вывода агенту",
+          "Нажми «Вывод средств» в приложении Mobcash",
+          "Введи аккаунт {{brand}} и код, который предоставил игрок",
+          "Передай деньги игроку"
+        ],
+        "ar": [
+          "يفتح اللاعب قسم السحب على موقع {{brand}}",
+          "يجد زر \"نقدي\"",
+          "يدخل المبلغ، يختار المدينة وعنوان السحب",
+          "يتلقى اللاعب تأكيدًا من {{brand}}",
+          "يعطي رمز السحب للوكيل",
+          "اضغط على \"سحب الأموال\" في تطبيق Mobcash",
+          "أدخل حساب {{brand}} والرمز الذي قدمه اللاعب",
+          "أعط المال للاعب"
+        ],
+        "uz": [
+          "O'yinchi {{brand}} veb-saytida yechish bo'limini ochadi",
+          "\"Naqd pul\" tugmasini topadi",
+          "Summani kiritadi, shahar va yechish manzilini tanlaydi",
+          "O'yinchi {{brand}}dan tasdiqlash oladi",
+          "Yechish kodini agentga beradi",
+          "Mobcash ilovasida \"Mablag'larni yechish\" tugmasini bosing",
+          "{{brand}} hisobini va o'yinchi taqdim etgan kodni kiriting",
+          "O'yinchiga pul bering"
+        ],
+        "bn": [
+          "খেলোয়াড় {{brand}} ওয়েবসাইটে উত্তোলন বিভাগ খোলে",
+          "\"নগদ\" বোতাম খুঁজে পায়",
+          "পরিমাণ লিখুন, শহর এবং উত্তোলনের ঠিকানা নির্বাচন করুন",
+          "খেলোয়াড় {{brand}} থেকে নিশ্চিতকরণ পায়",
+          "এজেন্টকে উত্তোলন কোড দেয়",
+          "Mobcash অ্যাপে \"তহবিল উত্তোলন\" ট্যাপ করুন",
+          "{{brand}} অ্যাকাউন্ট এবং খেলোয়াড়ের দেওয়া কোড লিখুন",
+          "খেলোয়াড়কে টাকা দিন"
+        ],
+        "fr": [
+          "Le joueur ouvre la section de retrait sur le site {{brand}}",
+          "Trouve le bouton \"Espèces\"",
+          "Entre le montant, sélectionne la ville et l'adresse de retrait",
+          "Le joueur reçoit une confirmation de {{brand}}",
+          "Donne le code de retrait à l'agent",
+          "Appuyez sur \"Retirer des fonds\" dans l'application Mobcash",
+          "Entrez le compte {{brand}} et le code fourni par le joueur",
+          "Donnez l'argent au joueur"
         ]
       },
       "notes": {
-        "ru": "Кнопка появится только если игрок ранее пополнялся через кассы. При выводе баланс на кассе уменьшается, лимит увеличивается.",
-        "en": "Button will appear only if player previously deposited through registers. When withdrawing, balance decreases and limit increases."
+        "en": "Button will appear only if player previously deposited to {{brand}} account through registers. When withdrawing, register balance decreases and limit increases.",
+        "ru": "Кнопка появится только если игрок ранее пополнял аккаунт {{brand}} через кассы. При выводе баланс на кассе уменьшается, лимит увеличивается.",
+        "ar": "سيظهر الزر فقط إذا كان اللاعب قد أودع سابقًا في حساب {{brand}} من خلال الصناديق. عند السحب، ينخفض رصيد الصندوق ويزيد الحد.",
+        "uz": "Tugma faqat o'yinchi avval kassalar orqali {{brand}} hisobiga depozit qilgan bo'lsa paydo bo'ladi. Yechishda kassa balansi kamayadi va limit oshadi.",
+        "bn": "বোতামটি কেবল তখনই প্রদর্শিত হবে যদি খেলোয়াড় আগে রেজিস্টারের মাধ্যমে {{brand}} অ্যাকাউন্টে জমা দিয়ে থাকে। উত্তোলনের সময়, রেজিস্টার ব্যালেন্স কমে এবং সীমা বাড়ে।",
+        "fr": "Le bouton n'apparaîtra que si le joueur a précédemment déposé sur son compte {{brand}} via les caisses. Lors d'un retrait, le solde de la caisse diminue et la limite augmente."
       },
       "warning": {
-        "ru": "Если ты не передал деньги игроку - это грубое нарушение правил!",
-        "en": "If you didn't give money to player - this is a serious rule violation!"
+        "en": "Give the player exactly the amount withdrawn. Withholding commission from the player is prohibited!\n\nIf you didn't give money to the player — this is a serious violation of {{brand}} rules!",
+        "ru": "Отдай игроку ровно ту сумму, которую вывел. Удерживать комиссию с игрока запрещено!\n\nЕсли ты не передал деньги игроку - это грубое нарушение правил {{brand}}!",
+        "ar": "أعط اللاعب بالضبط المبلغ المسحوب. حجب العمولة من اللاعب ممنوع!\n\nإذا لم تعط المال للاعب — هذا انتهاك خطير لقواعد {{brand}}!",
+        "uz": "O'yinchiga aynan yechilgan summani bering. O'yinchidan komissiya ushlab qolish taqiqlangan!\n\nAgar siz o'yinchiga pul bermagan bo'lsangiz — bu {{brand}} qoidalarining jiddiy buzilishidir!",
+        "bn": "খেলোয়াড়কে ঠিক উত্তোলিত পরিমাণ দিন। খেলোয়াড়ের কাছ থেকে কমিশন আটকে রাখা নিষিদ্ধ!\n\nযদি আপনি খেলোয়াড়কে টাকা না দেন — এটি {{brand}} নিয়মের গুরুতর লঙ্ঘন!",
+        "fr": "Donnez au joueur exactement le montant retiré. Retenir une commission sur le joueur est interdit !\n\nSi vous n'avez pas donné l'argent au joueur — c'est une violation grave des règles de {{brand}} !"
       },
       "image": "/images/step-06.png"
     },
@@ -194,32 +406,72 @@
       "id": "prepayment",
       "order": 7,
       "title": {
+        "en": "Prepayment",
         "ru": "Предоплата",
-        "en": "Prepayment"
+        "ar": "الدفع المسبق",
+        "uz": "Oldindan to'lov",
+        "bn": "প্রিপেমেন্ট",
+        "fr": "Prépaiement"
       },
       "content": {
-        "ru": "Агентский аккаунт - аккаунт, выданный менеджером для внесения первой предоплаты.",
-        "en": "Agent account - account issued by manager for making the first prepayment."
+        "en": "Agent account is an account on {{brand}} issued by Mobcash manager for making the first prepayment.",
+        "ru": "Агентский аккаунт - аккаунт на {{brand}}, выданный менеджером Mobcash для внесения первой предоплаты.",
+        "ar": "حساب الوكيل هو حساب على {{brand}} صادر من مدير Mobcash لإجراء الدفع المسبق الأول.",
+        "uz": "Agent hisobi - bu birinchi oldindan to'lovni amalga oshirish uchun Mobcash menejeri tomonidan berilgan {{brand}} dagi hisob.",
+        "bn": "এজেন্ট অ্যাকাউন্ট হল {{brand}}-এ একটি অ্যাকাউন্ট যা প্রথম প্রিপেমেন্ট করার জন্য Mobcash ম্যানেজার দ্বারা জারি করা হয়।",
+        "fr": "Le compte agent est un compte sur {{brand}} délivré par le gestionnaire Mobcash pour effectuer le premier prépaiement."
       },
       "numberedSteps": {
-        "ru": [
-          "Войди в свой агентский аккаунт на сайте",
-          "Выбери метод из доступных",
-          "Пополни аккаунт",
-          "Через некоторое время средства сами спишутся с него",
-          "Если у тебя настроено автосписание - средства сами добавятся на кассу"
-        ],
         "en": [
-          "Log in to your agent account on the website",
-          "Select an available method",
-          "Top up the account",
-          "After some time, funds will be automatically debited",
-          "If you have auto-debit set up - funds will automatically be added to the register"
+          "Log in to your agent account on {{brand}} website",
+          "Select an available payment method",
+          "Top up {{brand}} account",
+          "After some time, funds will be automatically debited from {{brand}} account",
+          "If you have auto-debit set up, funds will automatically be added to Mobcash register"
+        ],
+        "ru": [
+          "Войди в свой агентский аккаунт на сайте {{brand}}",
+          "Выбери метод оплаты из доступных",
+          "Пополни аккаунт {{brand}}",
+          "Через некоторое время средства сами спишутся с аккаунта {{brand}}",
+          "Если у тебя настроено автосписание - средства сами добавятся на кассу Mobcash"
+        ],
+        "ar": [
+          "سجل الدخول إلى حساب الوكيل الخاص بك على موقع {{brand}}",
+          "اختر طريقة دفع متاحة",
+          "اشحن حساب {{brand}}",
+          "بعد بعض الوقت، سيتم خصم الأموال تلقائيًا من حساب {{brand}}",
+          "إذا كان لديك خصم تلقائي، ستتم إضافة الأموال تلقائيًا إلى صندوق Mobcash"
+        ],
+        "uz": [
+          "{{brand}} veb-saytidagi agent hisobingizga kiring",
+          "Mavjud to'lov usulini tanlang",
+          "{{brand}} hisobini to'ldiring",
+          "Biroz vaqt o'tgach, mablag'lar avtomatik ravishda {{brand}} hisobidan yechiladi",
+          "Agar avtomatik yechish sozlangan bo'lsa, mablag'lar avtomatik ravishda Mobcash kassasiga qo'shiladi"
+        ],
+        "bn": [
+          "{{brand}} ওয়েবসাইটে আপনার এজেন্ট অ্যাকাউন্টে লগ ইন করুন",
+          "একটি উপলব্ধ পেমেন্ট পদ্ধতি নির্বাচন করুন",
+          "{{brand}} অ্যাকাউন্ট টপ আপ করুন",
+          "কিছু সময় পরে, তহবিল স্বয়ংক্রিয়ভাবে {{brand}} অ্যাকাউন্ট থেকে ডেবিট হবে",
+          "যদি আপনার অটো-ডেবিট সেট আপ থাকে, তহবিল স্বয়ংক্রিয়ভাবে Mobcash রেজিস্টারে যোগ হবে"
+        ],
+        "fr": [
+          "Connectez-vous à votre compte agent sur le site {{brand}}",
+          "Sélectionnez une méthode de paiement disponible",
+          "Rechargez le compte {{brand}}",
+          "Après un certain temps, les fonds seront automatiquement débités du compte {{brand}}",
+          "Si vous avez configuré le débit automatique, les fonds seront automatiquement ajoutés à la caisse Mobcash"
         ]
       },
       "notes": {
-        "ru": "Пополняй агентский аккаунт тем же методом, каким делал первый депозит. Для добавления другого метода обратись к менеджеру в Reddy.",
-        "en": "Top up agent account using the same method as your first deposit. To add another method, contact your manager in Reddy."
+        "en": "Top up {{brand}} agent account using the same method as your first deposit. To add another method, contact Mobcash manager in Reddy.",
+        "ru": "Пополняй агентский аккаунт {{brand}} тем же методом, каким делал первый депозит. Для добавления другого метода обратись к менеджеру Mobcash в Reddy.",
+        "ar": "اشحن حساب وكيل {{brand}} باستخدام نفس الطريقة التي استخدمتها في إيداعك الأول. لإضافة طريقة أخرى، اتصل بمدير Mobcash في Reddy.",
+        "uz": "{{brand}} agent hisobini birinchi depozitingiz kabi xuddi shu usul bilan to'ldiring. Boshqa usul qo'shish uchun Reddy'da Mobcash menejeriga murojaat qiling.",
+        "bn": "আপনার প্রথম জমার মতো একই পদ্ধতি ব্যবহার করে {{brand}} এজেন্ট অ্যাকাউন্ট টপ আপ করুন। অন্য পদ্ধতি যোগ করতে, Reddy-তে Mobcash ম্যানেজারের সাথে যোগাযোগ করুন।",
+        "fr": "Rechargez le compte agent {{brand}} en utilisant la même méthode que votre premier dépôt. Pour ajouter une autre méthode, contactez le gestionnaire Mobcash dans Reddy."
       },
       "image": "/images/step-07.png"
     },
@@ -227,20 +479,36 @@
       "id": "commission",
       "order": 8,
       "title": {
+        "en": "Commission",
         "ru": "Комиссия",
-        "en": "Commission"
+        "ar": "العمولة",
+        "uz": "Komissiya",
+        "bn": "কমিশন",
+        "fr": "Commission"
       },
       "content": {
-        "ru": "Комиссия - процент от суммы всех транзакций за месяц, начисляется 3-го числа следующего месяца или в первый рабочий день после выходного.\n\nКомиссия - твой доход с пополнений и выводов игроков.\n\nКомиссия выплачивается только в виде увеличения лимита на кассе.",
-        "en": "Commission - percentage of all transactions for the month, credited on the 3rd of the following month or the first business day after a weekend.\n\nCommission - your income from player deposits and withdrawals.\n\nCommission is paid only as an increase in register limit."
+        "en": "Commission is a percentage of all {{brand}} transactions for the month, credited on the 3rd of the following month or the first business day after a weekend.\n\nCommission is your income from {{brand}} player deposits and withdrawals.\n\nCommission is paid only as an increase in Mobcash register limit.",
+        "ru": "Комиссия - процент от суммы всех транзакций на {{brand}} за месяц, начисляется 3-го числа следующего месяца или в первый рабочий день после выходного.\n\nКомиссия - твой доход с пополнений и выводов игроков {{brand}}.\n\nКомиссия выплачивается только в виде увеличения лимита на кассе Mobcash.",
+        "ar": "العمولة هي نسبة مئوية من جميع معاملات {{brand}} للشهر، تُضاف في اليوم الثالث من الشهر التالي أو أول يوم عمل بعد عطلة نهاية الأسبوع.\n\nالعمولة هي دخلك من إيداعات وسحوبات لاعبي {{brand}}.\n\nتُدفع العمولة فقط كزيادة في حد صندوق Mobcash.",
+        "uz": "Komissiya - bu oydagi barcha {{brand}} tranzaksiyalarining foizi, keyingi oyning 3-sanasida yoki dam olish kunidan keyingi birinchi ish kunida hisoblanadi.\n\nKomissiya - bu {{brand}} o'yinchilarining depozitlari va yechimlaridan olingan daromadingiz.\n\nKomissiya faqat Mobcash kassasidagi limitni oshirish sifatida to'lanadi.",
+        "bn": "কমিশন হল মাসের জন্য সমস্ত {{brand}} লেনদেনের একটি শতাংশ, পরবর্তী মাসের ৩ তারিখে বা সাপ্তাহিক ছুটির পরে প্রথম কার্যদিবসে জমা হয়।\n\nকমিশন হল {{brand}} খেলোয়াড়দের জমা এবং উত্তোলন থেকে আপনার আয়।\n\nকমিশন শুধুমাত্র Mobcash রেজিস্টার সীমা বৃদ্ধি হিসাবে প্রদান করা হয়।",
+        "fr": "La commission est un pourcentage de toutes les transactions {{brand}} du mois, créditée le 3 du mois suivant ou le premier jour ouvrable après un week-end.\n\nLa commission est votre revenu des dépôts et retraits des joueurs {{brand}}.\n\nLa commission est payée uniquement comme une augmentation de la limite de la caisse Mobcash."
       },
       "warning": {
-        "ru": "Комиссию платит сайт, брать процент с игроков строго запрещено",
-        "en": "Commission is paid by the site, charging players is strictly prohibited"
+        "en": "Commission is paid by {{brand}}, charging players is strictly prohibited",
+        "ru": "Комиссию платит {{brand}}, брать процент с игроков строго запрещено",
+        "ar": "العمولة يدفعها {{brand}}، فرض رسوم على اللاعبين ممنوع تمامًا",
+        "uz": "Komissiyani {{brand}} to'laydi, o'yinchilardan foiz olish qat'iyan taqiqlangan",
+        "bn": "কমিশন {{brand}} দেয়, খেলোয়াড়দের কাছ থেকে চার্জ করা কঠোরভাবে নিষিদ্ধ",
+        "fr": "La commission est payée par {{brand}}, facturer les joueurs est strictement interdit"
       },
       "notes": {
-        "ru": "Транзакции игроков, не прошедших проверку Службой Безопасности, вычитаются из твоей комиссии",
-        "en": "Transactions from players who failed Security check are deducted from your commission"
+        "en": "Transactions from {{brand}} players who failed Security check are deducted from your commission",
+        "ru": "Транзакции игроков {{brand}}, не прошедших проверку Службой Безопасности, вычитаются из твоей комиссии",
+        "ar": "يتم خصم المعاملات من لاعبي {{brand}} الذين فشلوا في فحص الأمان من عمولتك",
+        "uz": "Xavfsizlik tekshiruvidan o'tmagan {{brand}} o'yinchilarining tranzaksiyalari komissiyangizdan ayiriladi",
+        "bn": "যে {{brand}} খেলোয়াড়রা নিরাপত্তা পরীক্ষায় ব্যর্থ হয়েছে তাদের লেনদেন আপনার কমিশন থেকে কাটা হয়",
+        "fr": "Les transactions des joueurs {{brand}} qui ont échoué au contrôle de sécurité sont déduites de votre commission"
       },
       "image": "/images/step-08.png"
     },
@@ -248,30 +516,66 @@
       "id": "errors",
       "order": 9,
       "title": {
+        "en": "Errors",
         "ru": "Ошибки",
-        "en": "Errors"
+        "ar": "الأخطاء",
+        "uz": "Xatolar",
+        "bn": "ত্রুটি",
+        "fr": "Erreurs"
       },
       "content": {
+        "en": "When a problem occurs:",
         "ru": "При возникновении проблемы:",
-        "en": "When a problem occurs:"
+        "ar": "عند حدوث مشكلة:",
+        "uz": "Muammo yuzaga kelganda:",
+        "bn": "যখন সমস্যা হয়:",
+        "fr": "Lorsqu'un problème survient :"
       },
       "numberedSteps": {
-        "ru": [
-          "Пришли скриншот ошибки",
-          "Опиши проблему кратко и понятно",
-          "Тегни только одного менеджера (не нужно упоминать всех)",
-          "Если проблема связана с игроком, напиши ID пользователя"
-        ],
         "en": [
           "Send a screenshot of the error",
           "Describe the problem briefly and clearly",
-          "Tag only one manager (no need to mention everyone)",
-          "If the problem is related to a player, write the user ID"
+          "Tag only one Mobcash manager (no need to mention everyone)",
+          "If the problem is related to a {{brand}} player, write the user ID"
+        ],
+        "ru": [
+          "Пришли скриншот ошибки",
+          "Опиши проблему кратко и понятно",
+          "Тегни только одного менеджера Mobcash (не нужно упоминать всех)",
+          "Если проблема связана с игроком {{brand}}, напиши ID пользователя"
+        ],
+        "ar": [
+          "أرسل لقطة شاشة للخطأ",
+          "صف المشكلة بإيجاز ووضوح",
+          "ضع علامة على مدير Mobcash واحد فقط (لا حاجة لذكر الجميع)",
+          "إذا كانت المشكلة متعلقة بلاعب {{brand}}، اكتب معرف المستخدم"
+        ],
+        "uz": [
+          "Xato skrinshoti yuboring",
+          "Muammoni qisqa va aniq tasvirlab bering",
+          "Faqat bitta Mobcash menejerini belgilang (hammasini eslatish shart emas)",
+          "Agar muammo {{brand}} o'yinchisiga tegishli bo'lsa, foydalanuvchi ID-sini yozing"
+        ],
+        "bn": [
+          "ত্রুটির স্ক্রিনশট পাঠান",
+          "সমস্যাটি সংক্ষেপে এবং স্পষ্টভাবে বর্ণনা করুন",
+          "শুধুমাত্র একজন Mobcash ম্যানেজারকে ট্যাগ করুন (সবাইকে উল্লেখ করার দরকার নেই)",
+          "যদি সমস্যাটি একজন {{brand}} খেলোয়াড়ের সাথে সম্পর্কিত হয়, ব্যবহারকারীর ID লিখুন"
+        ],
+        "fr": [
+          "Envoyez une capture d'écran de l'erreur",
+          "Décrivez le problème brièvement et clairement",
+          "Taguez un seul gestionnaire Mobcash (pas besoin de mentionner tout le monde)",
+          "Si le problème est lié à un joueur {{brand}}, écrivez l'ID utilisateur"
         ]
       },
       "warning": {
-        "ru": "По всем вопросам, связанным с кассами, пиши нам только в Reddy!",
-        "en": "For all register-related questions, contact us only in Reddy!"
+        "en": "For all questions related to Mobcash registers for {{brand}}, contact us only in Reddy!",
+        "ru": "По всем вопросам, связанным с кассами Mobcash для {{brand}}, пиши нам только в Reddy!",
+        "ar": "لجميع الأسئلة المتعلقة بصناديق Mobcash لـ {{brand}}، اتصل بنا فقط في Reddy!",
+        "uz": "{{brand}} uchun Mobcash kassalariga oid barcha savollar bo'yicha bizga faqat Reddy'da yozing!",
+        "bn": "{{brand}}-এর জন্য Mobcash রেজিস্টার সম্পর্কিত সমস্ত প্রশ্নের জন্য, শুধুমাত্র Reddy-তে আমাদের সাথে যোগাযোগ করুন!",
+        "fr": "Pour toutes les questions relatives aux caisses Mobcash pour {{brand}}, contactez-nous uniquement dans Reddy !"
       },
       "image": "/images/step-09.png"
     },
@@ -279,56 +583,152 @@
       "id": "common-errors",
       "order": 10,
       "title": {
+        "en": "Common errors",
         "ru": "Частые ошибки",
-        "en": "Common errors"
+        "ar": "الأخطاء الشائعة",
+        "uz": "Tez-tez uchraydigan xatolar",
+        "bn": "সাধারণ ত্রুটি",
+        "fr": "Erreurs courantes"
       },
       "content": {
+        "en": "Common problems and solutions:",
         "ru": "Распространённые проблемы и их решения:",
-        "en": "Common problems and solutions:"
+        "ar": "المشاكل الشائعة وحلولها:",
+        "uz": "Keng tarqalgan muammolar va ularning yechimlari:",
+        "bn": "সাধারণ সমস্যা এবং সমাধান:",
+        "fr": "Problèmes courants et solutions :"
       },
       "errorCards": {
-        "ru": [
-          {
-            "title": "Активация устройства",
-            "description": "Когда ты заходишь в свой {{brand}} с нового устройства, необходимо активировать его у менеджера",
-            "solution": "Сделай скриншот и пришли менеджеру в Редди"
-          },
-          {
-            "title": "Касса заблокирована за неактивность",
-            "description": "Касса автоматически блокируется за 7 дней неактивности",
-            "solution": "Сделай скриншот и пришли менеджеру в Редди. Укажи номер кассы, если у тебя их несколько"
-          },
-          {
-            "title": "Ты вышел за радиус",
-            "description": "{{brand}} работает в радиусе 5 км от указанной тобой точки. Тебе надо вернуться в зону действия приложения",
-            "solution": "Для изменения координат отправь менеджеру: новые координаты и селфи с документом и текущей датой"
-          },
-          {
-            "title": "Нет соединения с интернетом",
-            "description": "Проблемы с подключением к сети",
-            "solution": "Проверь: доступ к мобильной сети, доступ к Wi-Fi, перезагрузи телефон. Если есть VPN - попробуй другую страну или отключи. Если не помогает - переустанови приложение"
-          }
-        ],
         "en": [
           {
             "title": "Device activation",
-            "description": "When you log into {{brand}} from a new device, you need to activate it with your manager",
-            "solution": "Take a screenshot and send it to your manager in Reddy"
+            "description": "When you log into Mobcash from a new device, you need to activate it with Mobcash manager",
+            "solution": "Take a screenshot and send it to Mobcash manager in Reddy"
           },
           {
             "title": "Register blocked due to inactivity",
-            "description": "Register is automatically blocked after 7 days of inactivity",
-            "solution": "Take a screenshot and send it to your manager in Reddy. Specify register number if you have multiple"
+            "description": "Mobcash register is automatically blocked after 7 days of inactivity",
+            "solution": "Take a screenshot and send it to Mobcash manager in Reddy. Specify register number if you have multiple"
           },
           {
             "title": "You're out of radius",
-            "description": "{{brand}} works within 5 km radius from your specified location. You need to return to the app's coverage area",
-            "solution": "To change coordinates, send your manager: new coordinates and a selfie with document and current date"
+            "description": "Mobcash works within 5 km radius from your specified location. You need to return to the app's coverage area",
+            "solution": "To change coordinates, send Mobcash manager: new coordinates and a selfie with document and current date"
           },
           {
             "title": "No internet connection",
             "description": "Network connection issues",
-            "solution": "Check: mobile network access, Wi-Fi access, restart phone. If using VPN - try another country or disable. If nothing helps - reinstall the app"
+            "solution": "Check: mobile network access, Wi-Fi access, restart phone. If using VPN — try another country or disable. If nothing helps — reinstall Mobcash"
+          }
+        ],
+        "ru": [
+          {
+            "title": "Активация устройства",
+            "description": "Когда ты заходишь в Mobcash с нового устройства, необходимо активировать его у менеджера Mobcash",
+            "solution": "Сделай скриншот и пришли менеджеру Mobcash в Редди"
+          },
+          {
+            "title": "Касса заблокирована за неактивность",
+            "description": "Касса Mobcash автоматически блокируется за 7 дней неактивности",
+            "solution": "Сделай скриншот и пришли менеджеру Mobcash в Редди. Укажи номер кассы, если у тебя их несколько"
+          },
+          {
+            "title": "Ты вышел за радиус",
+            "description": "Mobcash работает в радиусе 5 км от указанной тобой точки. Тебе надо вернуться в зону действия приложения",
+            "solution": "Для изменения координат отправь менеджеру Mobcash: новые координаты и селфи с документом и текущей датой"
+          },
+          {
+            "title": "Нет соединения с интернетом",
+            "description": "Проблемы с подключением к сети",
+            "solution": "Проверь: доступ к мобильной сети, доступ к Wi-Fi, перезагрузи телефон. Если есть VPN — попробуй другую страну или отключи. Если не помогает — переустанови Mobcash"
+          }
+        ],
+        "ar": [
+          {
+            "title": "تفعيل الجهاز",
+            "description": "عندما تسجل الدخول إلى Mobcash من جهاز جديد، تحتاج إلى تفعيله مع مدير Mobcash",
+            "solution": "التقط لقطة شاشة وأرسلها إلى مدير Mobcash في Reddy"
+          },
+          {
+            "title": "الصندوق محظور بسبب عدم النشاط",
+            "description": "يتم حظر صندوق Mobcash تلقائيًا بعد 7 أيام من عدم النشاط",
+            "solution": "التقط لقطة شاشة وأرسلها إلى مدير Mobcash في Reddy. حدد رقم الصندوق إذا كان لديك عدة صناديق"
+          },
+          {
+            "title": "أنت خارج النطاق",
+            "description": "يعمل Mobcash في نطاق 5 كم من موقعك المحدد. تحتاج إلى العودة إلى منطقة تغطية التطبيق",
+            "solution": "لتغيير الإحداثيات، أرسل إلى مدير Mobcash: إحداثيات جديدة وصورة سيلفي مع وثيقة والتاريخ الحالي"
+          },
+          {
+            "title": "لا يوجد اتصال بالإنترنت",
+            "description": "مشاكل في الاتصال بالشبكة",
+            "solution": "تحقق من: الوصول إلى شبكة الهاتف المحمول، الوصول إلى Wi-Fi، أعد تشغيل الهاتف. إذا كنت تستخدم VPN — جرب بلدًا آخر أو أوقفه. إذا لم يساعد شيء — أعد تثبيت Mobcash"
+          }
+        ],
+        "uz": [
+          {
+            "title": "Qurilmani faollashtirish",
+            "description": "Yangi qurilmadan Mobcash-ga kirganingizda, uni Mobcash menejeri orqali faollashtirish kerak",
+            "solution": "Skrinshot oling va Reddy'da Mobcash menejeriga yuboring"
+          },
+          {
+            "title": "Kassa faolsizlik tufayli bloklangan",
+            "description": "Mobcash kassasi 7 kun faolsizlikdan keyin avtomatik ravishda bloklanadi",
+            "solution": "Skrinshot oling va Reddy'da Mobcash menejeriga yuboring. Agar bir nechtasi bo'lsa, kassa raqamini ko'rsating"
+          },
+          {
+            "title": "Siz radiusdan chiqdingiz",
+            "description": "Mobcash ko'rsatilgan nuqtangizdan 5 km radiusda ishlaydi. Ilova qamrov hududiga qaytishingiz kerak",
+            "solution": "Koordinatalarni o'zgartirish uchun Mobcash menejeriga yuboring: yangi koordinatalar va hujjat va joriy sana bilan selfi"
+          },
+          {
+            "title": "Internet aloqasi yo'q",
+            "description": "Tarmoqqa ulanish muammolari",
+            "solution": "Tekshiring: mobil tarmoqqa kirish, Wi-Fi-ga kirish, telefonni qayta yoqing. Agar VPN ishlatayotgan bo'lsangiz — boshqa mamlakatni sinab ko'ring yoki o'chiring. Agar hech narsa yordam bermasa — Mobcash-ni qayta o'rnating"
+          }
+        ],
+        "bn": [
+          {
+            "title": "ডিভাইস সক্রিয়করণ",
+            "description": "যখন আপনি একটি নতুন ডিভাইস থেকে Mobcash-এ লগ ইন করেন, আপনাকে Mobcash ম্যানেজারের সাথে এটি সক্রিয় করতে হবে",
+            "solution": "একটি স্ক্রিনশট নিন এবং Reddy-তে Mobcash ম্যানেজারকে পাঠান"
+          },
+          {
+            "title": "নিষ্ক্রিয়তার কারণে রেজিস্টার ব্লক করা হয়েছে",
+            "description": "Mobcash রেজিস্টার 7 দিন নিষ্ক্রিয়তার পরে স্বয়ংক্রিয়ভাবে ব্লক হয়ে যায়",
+            "solution": "একটি স্ক্রিনশট নিন এবং Reddy-তে Mobcash ম্যানেজারকে পাঠান। আপনার যদি একাধিক থাকে তবে রেজিস্টার নম্বর উল্লেখ করুন"
+          },
+          {
+            "title": "আপনি ব্যাসার্ধের বাইরে",
+            "description": "Mobcash আপনার নির্দিষ্ট অবস্থান থেকে 5 কিমি ব্যাসার্ধের মধ্যে কাজ করে। আপনাকে অ্যাপের কভারেজ এলাকায় ফিরে যেতে হবে",
+            "solution": "স্থানাঙ্ক পরিবর্তন করতে, Mobcash ম্যানেজারকে পাঠান: নতুন স্থানাঙ্ক এবং নথি এবং বর্তমান তারিখ সহ একটি সেলফি"
+          },
+          {
+            "title": "ইন্টারনেট সংযোগ নেই",
+            "description": "নেটওয়ার্ক সংযোগ সমস্যা",
+            "solution": "চেক করুন: মোবাইল নেটওয়ার্ক অ্যাক্সেস, Wi-Fi অ্যাক্সেস, ফোন রিস্টার্ট করুন। যদি VPN ব্যবহার করেন — অন্য দেশ চেষ্টা করুন বা নিষ্ক্রিয় করুন। যদি কিছু কাজ না করে — Mobcash পুনরায় ইনস্টল করুন"
+          }
+        ],
+        "fr": [
+          {
+            "title": "Activation de l'appareil",
+            "description": "Lorsque vous vous connectez à Mobcash depuis un nouvel appareil, vous devez l'activer avec le gestionnaire Mobcash",
+            "solution": "Prenez une capture d'écran et envoyez-la au gestionnaire Mobcash dans Reddy"
+          },
+          {
+            "title": "Caisse bloquée pour inactivité",
+            "description": "La caisse Mobcash est automatiquement bloquée après 7 jours d'inactivité",
+            "solution": "Prenez une capture d'écran et envoyez-la au gestionnaire Mobcash dans Reddy. Précisez le numéro de caisse si vous en avez plusieurs"
+          },
+          {
+            "title": "Vous êtes hors du rayon",
+            "description": "Mobcash fonctionne dans un rayon de 5 km de votre emplacement spécifié. Vous devez retourner dans la zone de couverture de l'application",
+            "solution": "Pour changer les coordonnées, envoyez au gestionnaire Mobcash : nouvelles coordonnées et un selfie avec document et date actuelle"
+          },
+          {
+            "title": "Pas de connexion Internet",
+            "description": "Problèmes de connexion réseau",
+            "solution": "Vérifiez : accès au réseau mobile, accès Wi-Fi, redémarrez le téléphone. Si vous utilisez un VPN — essayez un autre pays ou désactivez. Si rien n'aide — réinstallez Mobcash"
           }
         ]
       },
@@ -338,27 +738,63 @@
       "id": "important-info",
       "order": 11,
       "title": {
-        "ru": "Важная информация для работы",
-        "en": "Important work information"
+        "en": "Important information for working with {{brand}}",
+        "ru": "Важная информация для работы с {{brand}}",
+        "ar": "معلومات مهمة للعمل مع {{brand}}",
+        "uz": "{{brand}} bilan ishlash uchun muhim ma'lumotlar",
+        "bn": "{{brand}}-এর সাথে কাজ করার জন্য গুরুত্বপূর্ণ তথ্য",
+        "fr": "Informations importantes pour travailler avec {{brand}}"
       },
       "content": {
+        "en": "Rules that must be followed:",
         "ru": "Правила, которые необходимо соблюдать:",
-        "en": "Rules that must be followed:"
+        "ar": "القواعد التي يجب اتباعها:",
+        "uz": "Rioya qilish kerak bo'lgan qoidalar:",
+        "bn": "যে নিয়মগুলি অনুসরণ করতে হবে:",
+        "fr": "Règles à suivre :"
       },
       "numberedSteps": {
-        "ru": [
-          "Нельзя брать комиссию с игроков",
-          "Будьте внимательны при переводе средств",
-          "Никогда не передавайте доступы третьим лицам",
-          "Запрещено работать с несовершеннолетними",
-          "Если сомневаетесь в честности игрока, сообщите нам"
-        ],
         "en": [
-          "Cannot charge commission from players",
+          "Cannot charge commission from {{brand}} players",
           "Be careful when transferring funds",
-          "Never share access with third parties",
+          "Never share access to Mobcash and {{brand}} account with third parties",
           "Working with minors is prohibited",
-          "If you doubt a player's honesty, report to us"
+          "If you doubt a {{brand}} player's honesty, report to Mobcash manager"
+        ],
+        "ru": [
+          "Нельзя брать комиссию с игроков {{brand}}",
+          "Будьте внимательны при переводе средств",
+          "Никогда не передавайте доступы к Mobcash и аккаунту {{brand}} третьим лицам",
+          "Запрещено работать с несовершеннолетними",
+          "Если сомневаетесь в честности игрока {{brand}}, сообщите менеджеру Mobcash"
+        ],
+        "ar": [
+          "لا يمكن فرض عمولة من لاعبي {{brand}}",
+          "كن حذرًا عند تحويل الأموال",
+          "لا تشارك أبدًا الوصول إلى Mobcash وحساب {{brand}} مع أطراف ثالثة",
+          "العمل مع القاصرين ممنوع",
+          "إذا كنت تشك في صدق لاعب {{brand}}، أبلغ مدير Mobcash"
+        ],
+        "uz": [
+          "{{brand}} o'yinchilaridan komissiya olish mumkin emas",
+          "Mablag'larni o'tkazishda ehtiyot bo'ling",
+          "Mobcash va {{brand}} hisobiga kirishni hech qachon uchinchi shaxslarga bermang",
+          "Voyaga yetmaganlar bilan ishlash taqiqlangan",
+          "Agar {{brand}} o'yinchisining halolligiga shubhangiz bo'lsa, Mobcash menejeriga xabar bering"
+        ],
+        "bn": [
+          "{{brand}} খেলোয়াড়দের কাছ থেকে কমিশন নেওয়া যাবে না",
+          "তহবিল স্থানান্তর করার সময় সতর্ক থাকুন",
+          "তৃতীয় পক্ষের সাথে Mobcash এবং {{brand}} অ্যাকাউন্টে অ্যাক্সেস শেয়ার করবেন না",
+          "নাবালকদের সাথে কাজ করা নিষিদ্ধ",
+          "যদি আপনি একজন {{brand}} খেলোয়াড়ের সততায় সন্দেহ করেন, Mobcash ম্যানেজারকে জানান"
+        ],
+        "fr": [
+          "Impossible de facturer une commission aux joueurs {{brand}}",
+          "Soyez prudent lors du transfert de fonds",
+          "Ne partagez jamais l'accès à Mobcash et au compte {{brand}} avec des tiers",
+          "Travailler avec des mineurs est interdit",
+          "Si vous doutez de l'honnêteté d'un joueur {{brand}}, signalez-le au gestionnaire Mobcash"
         ]
       },
       "image": "/images/step-11.png"
