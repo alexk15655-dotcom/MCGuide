@@ -1,10 +1,1 @@
-<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="48" height="48" rx="12" fill="currentColor"/>
-  <rect x="10" y="14" width="6" height="6" rx="1.5" fill="white"/>
-  <rect x="18" y="14" width="6" height="6" rx="1.5" fill="white"/>
-  <rect x="10" y="22" width="6" height="6" rx="1.5" fill="white"/>
-  <rect x="18" y="22" width="6" height="6" rx="1.5" fill="white"/>
-  <path d="M28 18L38 18" stroke="white" stroke-width="3" stroke-linecap="round"/>
-  <path d="M28 26L35 26" stroke="white" stroke-width="3" stroke-linecap="round"/>
-  <path d="M28 34L32 34" stroke="white" stroke-width="3" stroke-linecap="round"/>
-</svg>
+<?xml version="1.0" encoding="UTF-8"?><svg id="a" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 207 66"><defs><style>.b{fill:#34cc67;fill-rule:evenodd;}</style></defs><path class="b" d="M68.34,.01h-17.66V66h17.66V.01h0ZM.86,.01H18.51V66H.86V.01H.86ZM25.77,20.49h17.66v45.51H25.77V20.49h0Zm.03-20.49h17.6V11.37l-17.6,6.55V0Z"/><path class="b" d="M76.54,63.55V0h14.88V15.02h10.65c11.4,0,17.1,5.7,17.1,17.1v16.79c0,5.56-1.46,9.8-4.38,12.72-2.92,2.92-7.16,4.38-12.72,4.38h-25.53v-2.45h0Zm63.96-32.34c0-1.93,.97-2.89,2.89-2.89h8.37c1.93,0,2.89,.97,2.89,2.89v6.26h-14.16v-6.26h0Zm-49.04,21.49h9.88c1.93,0,2.89-.96,2.89-2.89V31.21c0-1.93-.96-2.89-2.89-2.89h-9.88v24.39h0Zm34.39-3.8c0,5.56,1.46,9.8,4.38,12.72,2.92,2.92,7.16,4.38,12.72,4.38h16.92l7.07-5.3v-7.67c-8.92,0-17.29-.04-26.21,0h0v-6.57h28.03v-14.34c0-11.4-5.7-17.1-17.1-17.1h-8.71c-5.56,0-9.8,1.46-12.72,4.38-2.92,2.92-4.38,7.16-4.38,12.72v16.79h0Zm49.95,0V.36h16.26V15.02l14.17,.08v13.17h-14.17v24.48h0c5.48-.02,9.58,0,15.07,0v7.94l-7.07,5.3h-7.17c-5.56,0-9.8-1.46-12.72-4.38-2.92-2.92-4.38-7.16-4.38-12.72Z"/></svg>

@@ -1,10 +1,26 @@
-<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="48" height="48" rx="12" fill="currentColor"/>
-  <rect x="10" y="14" width="6" height="6" rx="1.5" fill="white"/>
-  <rect x="18" y="14" width="6" height="6" rx="1.5" fill="white"/>
-  <rect x="10" y="22" width="6" height="6" rx="1.5" fill="white"/>
-  <rect x="18" y="22" width="6" height="6" rx="1.5" fill="white"/>
-  <path d="M28 18L38 18" stroke="white" stroke-width="3" stroke-linecap="round"/>
-  <path d="M28 26L35 26" stroke="white" stroke-width="3" stroke-linecap="round"/>
-  <path d="M28 34L32 34" stroke="white" stroke-width="3" stroke-linecap="round"/>
+<svg width="298" height="48" viewBox="0 0 298 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_1_54)">
+<mask id="mask0_1_54" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="298" height="48">
+<path d="M298 0H0V48H298V0Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_1_54)">
+<path d="M250 0H298V48H250V0Z" fill="#8F00FF"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M265 15V39H259V9.0003L289 9V39H283V14.9999H277V39H271V15H265Z" fill="#FFB800"/>
+<path d="M200 0H248V48H200V0Z" fill="#8F00FF"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M215 39V15H233V39H239V9.0003L209 9V39H215ZM230 26.9996V20.9996H218V26.9996H230Z" fill="#FFB800"/>
+<path d="M150 0H198V48H150V0Z" fill="#8F00FF"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M189 39H183H159V33V21.5997H165V33H183V9H189V39Z" fill="#FFB800"/>
+<path d="M100 0H148V48H100V0Z" fill="#8F00FF"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M121 39H127V15H139V9H127H121H109V15H121V39Z" fill="white"/>
+<path d="M50 0H98V48H50V0Z" fill="#8F00FF"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M59.0001 39L59 9H65H89V15H65V33H89V39H59.0001ZM80 20.9997V26.9997H68V20.9997H80Z" fill="white"/>
+<path d="M0 0H48V48H0V0Z" fill="#8F00FF"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M33.0001 9L33.6001 9.0001V21.5997H39V27.5997V32.9998V38.9997L33 39L15 38.9997H9.0001L9 9H15H33.0001ZM15 32.9998H33V27.5999H27.6001L15 27.5997V32.9998ZM27.6001 14.9999V21.5997H15V14.9999H27.6001Z" fill="white"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_1_54">
+<rect width="298" height="48" fill="white"/>
+</clipPath>
+</defs>
 </svg>

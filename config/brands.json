@@ -9,15 +9,15 @@
   "wowbet": {
     "name": "WowBet",
     "logo": "/logos/wowbet.svg",
-    "primary": "#10B981",
-    "secondary": "#F59E0B",
-    "background": "#022C22"
+    "primary": "#8A42FD",
+    "secondary": "#EAEAF9",
+    "background": "#080A26"
   },
   "ultrapari": {
     "name": "UltraPari",
     "logo": "/logos/ultrapari.svg",
-    "primary": "#8B5CF6",
-    "secondary": "#EC4899",
+    "primary": "#8DFFB0",
+    "secondary": "#420031",
     "background": "#1E1B4B"
   },
   "1xslots": {
@@ -30,16 +30,16 @@
   "apuesta360": {
     "name": "Apuesta 360",
     "logo": "/logos/apuesta360.svg",
-    "primary": "#06B6D4",
-    "secondary": "#A855F7",
+    "primary": "#004225",
+    "secondary": "#2D2D2D",
     "background": "#0C1222"
   },
   "betjam": {
     "name": "BetJam",
     "logo": "/logos/betjam.svg",
-    "primary": "#F43F5E",
-    "secondary": "#0EA5E9",
-    "background": "#18181B"
+    "primary": "#5C00A3",
+    "secondary": "#FFB700",
+    "background": "#2E005C"
   },
   "dbbet": {
     "name": "DBbet",
@@ -86,16 +86,16 @@
   "yohoho": {
     "name": "Yohoho.bet",
     "logo": "/logos/yohoho.svg",
-    "primary": "#DB2777",
-    "secondary": "#4ADE80",
-    "background": "#27272A"
+    "primary": "#D90200",
+    "secondary": "#FF9800",
+    "background": "#0F0F0F"
   },
   "lilbet": {
     "name": "LilBet",
     "logo": "/logos/lilbet.svg",
-    "primary": "#059669",
-    "secondary": "#F472B6",
-    "background": "#052E16"
+    "primary": "#34CC67",
+    "secondary": "#082B53",
+    "background": "#04182f"
   },
   "betongame": {
     "name": "BetOnGame",
@@ -128,9 +128,9 @@
   "winebet": {
     "name": "Winebet",
     "logo": "/logos/winebet.svg",
-    "primary": "#2DD4BF",
-    "secondary": "#FB7185",
-    "background": "#0D2626"
+    "primary": "#BF2227",
+    "secondary": "#E8E8E8",
+    "background": "#1E2029"
   },
   "wekawin": {
     "name": "Wekawin",
