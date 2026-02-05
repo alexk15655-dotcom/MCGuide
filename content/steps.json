@@ -1,0 +1,367 @@
+{
+  "languages": ["ru", "en"],
+  "defaultLanguage": "ru",
+  "languageNames": {
+    "ru": "Русский",
+    "en": "English"
+  },
+  "steps": [
+    {
+      "id": "what-is",
+      "order": 1,
+      "title": {
+        "ru": "Что такое {{brand}}?",
+        "en": "What is {{brand}}?"
+      },
+      "content": {
+        "ru": "Приложение {{brand}} - это касса в твоем телефоне.\n\nТы можешь:\n• Пополнять аккаунты игроков\n• Выводить выигрыши\n• Управлять своим доходом!\n\nМы платим процент с каждой транзакции: чем больше сумма операций, тем выше твой доход.",
+        "en": "{{brand}} app is a cash register in your phone.\n\nYou can:\n• Top up player accounts\n• Withdraw winnings\n• Manage your income!\n\nWe pay a percentage of each transaction: the higher the transaction amount, the higher your income."
+      },
+      "notes": {
+        "ru": "{{brand}} доступен только на устройствах с операционной системой Android.",
+        "en": "{{brand}} is only available on Android devices."
+      },
+      "warning": {
+        "ru": "Комиссию платит сайт, а не игроки!",
+        "en": "Commission is paid by the site, not players!"
+      },
+      "image": "/images/step-01.png"
+    },
+    {
+      "id": "find-players",
+      "order": 2,
+      "title": {
+        "ru": "Ты легко найдёшь игроков",
+        "en": "You'll easily find players"
+      },
+      "content": {
+        "ru": "Если у тебя есть:",
+        "en": "If you have:"
+      },
+      "listItems": {
+        "ru": [
+          "Магазин, бар, кафе или иная точка продаж",
+          "Пункт приёма платежей",
+          "Знакомые, что хотят сделать ставки",
+          "Ресурс в соцсетях про ставки (каналы, группы, сообщества)",
+          "Онлайн-обменник"
+        ],
+        "en": [
+          "Shop, bar, cafe or other point of sale",
+          "Payment acceptance point",
+          "Friends who want to place bets",
+          "Social media resource about betting (channels, groups, communities)",
+          "Online exchanger"
+        ]
+      },
+      "notes": {
+        "ru": "С помощью партнёрской программы ты можешь получать процент за привлечённых игроков. Чтобы стать партнёром, напиши менеджеру.",
+        "en": "With the affiliate program, you can earn a percentage for referred players. To become a partner, contact your manager."
+      },
+      "image": "/images/step-02.png"
+    },
+    {
+      "id": "limit",
+      "order": 3,
+      "title": {
+        "ru": "Лимит",
+        "en": "Limit"
+      },
+      "content": {
+        "ru": "Лимит - сумма, используемая агентом для пополнений аккаунтов игроков.",
+        "en": "Limit - the amount used by the agent to top up player accounts."
+      },
+      "columns": {
+        "ru": {
+          "decrease": "При депозите игроку твой лимит уменьшается",
+          "increase": "Как увеличивается лимит:\n• Предоплаты - твои внесённые средства\n• Комиссии - твой заработок от операций\n• Выводы - запросы игроков на получение денег"
+        },
+        "en": {
+          "decrease": "When depositing to a player, your limit decreases",
+          "increase": "How limit increases:\n• Prepayments - your deposited funds\n• Commissions - your earnings from operations\n• Withdrawals - player requests to receive money"
+        }
+      },
+      "image": "/images/step-03.png"
+    },
+    {
+      "id": "balance",
+      "order": 4,
+      "title": {
+        "ru": "Баланс",
+        "en": "Balance"
+      },
+      "content": {
+        "ru": "Баланс - доступная для выводов игрокам сумма, разница между депозитами и выводами.",
+        "en": "Balance - the amount available for player withdrawals, the difference between deposits and withdrawals."
+      },
+      "columns": {
+        "ru": {
+          "decrease": "Когда ты выводишь деньги игроку, баланс на кассе уменьшается",
+          "increase": "Когда ты пополняешь аккаунт игрока, баланс на кассе увеличивается"
+        },
+        "en": {
+          "decrease": "When you withdraw money to a player, the balance decreases",
+          "increase": "When you top up a player's account, the balance increases"
+        }
+      },
+      "notes": {
+        "ru": "Баланс не может быть ниже нуля. Если нужно уменьшить баланс, напиши менеджеру в Reddy.",
+        "en": "Balance cannot be below zero. If you need to reduce balance, contact your manager in Reddy."
+      },
+      "image": "/images/step-04.png"
+    },
+    {
+      "id": "deposit",
+      "order": 5,
+      "title": {
+        "ru": "Пополнение игрокам",
+        "en": "Depositing to players"
+      },
+      "content": {
+        "ru": "Процесс пополнения аккаунта игрока:",
+        "en": "Player account top-up process:"
+      },
+      "numberedSteps": {
+        "ru": [
+          "Согласуй с игроком сумму депозита и способ передачи",
+          "Игрок передаёт тебе деньги",
+          "В приложении {{brand}} нажми \"Пополнить аккаунт\"",
+          "Введи ID игрока",
+          "Введи сумму в валюте кассы. Сумма не должна превышать лимит"
+        ],
+        "en": [
+          "Agree with the player on the deposit amount and transfer method",
+          "Player gives you money",
+          "In {{brand}} app, tap \"Top up account\"",
+          "Enter player ID",
+          "Enter amount in register currency. Amount must not exceed limit"
+        ]
+      },
+      "notes": {
+        "ru": "При пополнении баланс на кассе увеличивается, а лимит уменьшается",
+        "en": "When depositing, balance increases and limit decreases"
+      },
+      "warning": {
+        "ru": "Если игрок передал деньги, а ты не зачислил - это нарушение правил",
+        "en": "If a player gave you money and you didn't credit it - this is a rule violation"
+      },
+      "image": "/images/step-05.png"
+    },
+    {
+      "id": "withdraw",
+      "order": 6,
+      "title": {
+        "ru": "Вывод игрокам",
+        "en": "Withdrawing to players"
+      },
+      "content": {
+        "ru": "Процесс вывода средств игроку:",
+        "en": "Player withdrawal process:"
+      },
+      "numberedSteps": {
+        "ru": [
+          "Игрок открывает раздел вывода на платёжной странице",
+          "Находит кнопку «Наличные»",
+          "Вводит сумму, выбирает город и адрес вывода",
+          "Игрок получает подтверждение",
+          "Передаёт код вывода агенту",
+          "Нажми «Вывод средств» в приложении {{brand}}",
+          "Введи аккаунт и код, который предоставил игрок",
+          "Передай деньги игроку"
+        ],
+        "en": [
+          "Player opens withdrawal section on payment page",
+          "Finds \"Cash\" button",
+          "Enters amount, selects city and withdrawal address",
+          "Player receives confirmation",
+          "Gives withdrawal code to agent",
+          "Tap \"Withdraw funds\" in {{brand}} app",
+          "Enter account and code provided by player",
+          "Give money to player"
+        ]
+      },
+      "notes": {
+        "ru": "Кнопка появится только если игрок ранее пополнялся через кассы. При выводе баланс на кассе уменьшается, лимит увеличивается.",
+        "en": "Button will appear only if player previously deposited through registers. When withdrawing, balance decreases and limit increases."
+      },
+      "warning": {
+        "ru": "Если ты не передал деньги игроку - это грубое нарушение правил!",
+        "en": "If you didn't give money to player - this is a serious rule violation!"
+      },
+      "image": "/images/step-06.png"
+    },
+    {
+      "id": "prepayment",
+      "order": 7,
+      "title": {
+        "ru": "Предоплата",
+        "en": "Prepayment"
+      },
+      "content": {
+        "ru": "Агентский аккаунт - аккаунт, выданный менеджером для внесения первой предоплаты.",
+        "en": "Agent account - account issued by manager for making the first prepayment."
+      },
+      "numberedSteps": {
+        "ru": [
+          "Войди в свой агентский аккаунт на сайте",
+          "Выбери метод из доступных",
+          "Пополни аккаунт",
+          "Через некоторое время средства сами спишутся с него",
+          "Если у тебя настроено автосписание - средства сами добавятся на кассу"
+        ],
+        "en": [
+          "Log in to your agent account on the website",
+          "Select an available method",
+          "Top up the account",
+          "After some time, funds will be automatically debited",
+          "If you have auto-debit set up - funds will automatically be added to the register"
+        ]
+      },
+      "notes": {
+        "ru": "Пополняй агентский аккаунт тем же методом, каким делал первый депозит. Для добавления другого метода обратись к менеджеру в Reddy.",
+        "en": "Top up agent account using the same method as your first deposit. To add another method, contact your manager in Reddy."
+      },
+      "image": "/images/step-07.png"
+    },
+    {
+      "id": "commission",
+      "order": 8,
+      "title": {
+        "ru": "Комиссия",
+        "en": "Commission"
+      },
+      "content": {
+        "ru": "Комиссия - процент от суммы всех транзакций за месяц, начисляется 3-го числа следующего месяца или в первый рабочий день после выходного.\n\nКомиссия - твой доход с пополнений и выводов игроков.\n\nКомиссия выплачивается только в виде увеличения лимита на кассе.",
+        "en": "Commission - percentage of all transactions for the month, credited on the 3rd of the following month or the first business day after a weekend.\n\nCommission - your income from player deposits and withdrawals.\n\nCommission is paid only as an increase in register limit."
+      },
+      "warning": {
+        "ru": "Комиссию платит сайт, брать процент с игроков строго запрещено",
+        "en": "Commission is paid by the site, charging players is strictly prohibited"
+      },
+      "notes": {
+        "ru": "Транзакции игроков, не прошедших проверку Службой Безопасности, вычитаются из твоей комиссии",
+        "en": "Transactions from players who failed Security check are deducted from your commission"
+      },
+      "image": "/images/step-08.png"
+    },
+    {
+      "id": "errors",
+      "order": 9,
+      "title": {
+        "ru": "Ошибки",
+        "en": "Errors"
+      },
+      "content": {
+        "ru": "При возникновении проблемы:",
+        "en": "When a problem occurs:"
+      },
+      "numberedSteps": {
+        "ru": [
+          "Пришли скриншот ошибки",
+          "Опиши проблему кратко и понятно",
+          "Тегни только одного менеджера (не нужно упоминать всех)",
+          "Если проблема связана с игроком, напиши ID пользователя"
+        ],
+        "en": [
+          "Send a screenshot of the error",
+          "Describe the problem briefly and clearly",
+          "Tag only one manager (no need to mention everyone)",
+          "If the problem is related to a player, write the user ID"
+        ]
+      },
+      "warning": {
+        "ru": "По всем вопросам, связанным с кассами, пиши нам только в Reddy!",
+        "en": "For all register-related questions, contact us only in Reddy!"
+      },
+      "image": "/images/step-09.png"
+    },
+    {
+      "id": "common-errors",
+      "order": 10,
+      "title": {
+        "ru": "Частые ошибки",
+        "en": "Common errors"
+      },
+      "content": {
+        "ru": "Распространённые проблемы и их решения:",
+        "en": "Common problems and solutions:"
+      },
+      "errorCards": {
+        "ru": [
+          {
+            "title": "Активация устройства",
+            "description": "Когда ты заходишь в свой {{brand}} с нового устройства, необходимо активировать его у менеджера",
+            "solution": "Сделай скриншот и пришли менеджеру в Редди"
+          },
+          {
+            "title": "Касса заблокирована за неактивность",
+            "description": "Касса автоматически блокируется за 7 дней неактивности",
+            "solution": "Сделай скриншот и пришли менеджеру в Редди. Укажи номер кассы, если у тебя их несколько"
+          },
+          {
+            "title": "Ты вышел за радиус",
+            "description": "{{brand}} работает в радиусе 5 км от указанной тобой точки. Тебе надо вернуться в зону действия приложения",
+            "solution": "Для изменения координат отправь менеджеру: новые координаты и селфи с документом и текущей датой"
+          },
+          {
+            "title": "Нет соединения с интернетом",
+            "description": "Проблемы с подключением к сети",
+            "solution": "Проверь: доступ к мобильной сети, доступ к Wi-Fi, перезагрузи телефон. Если есть VPN - попробуй другую страну или отключи. Если не помогает - переустанови приложение"
+          }
+        ],
+        "en": [
+          {
+            "title": "Device activation",
+            "description": "When you log into {{brand}} from a new device, you need to activate it with your manager",
+            "solution": "Take a screenshot and send it to your manager in Reddy"
+          },
+          {
+            "title": "Register blocked due to inactivity",
+            "description": "Register is automatically blocked after 7 days of inactivity",
+            "solution": "Take a screenshot and send it to your manager in Reddy. Specify register number if you have multiple"
+          },
+          {
+            "title": "You're out of radius",
+            "description": "{{brand}} works within 5 km radius from your specified location. You need to return to the app's coverage area",
+            "solution": "To change coordinates, send your manager: new coordinates and a selfie with document and current date"
+          },
+          {
+            "title": "No internet connection",
+            "description": "Network connection issues",
+            "solution": "Check: mobile network access, Wi-Fi access, restart phone. If using VPN - try another country or disable. If nothing helps - reinstall the app"
+          }
+        ]
+      },
+      "image": "/images/step-10.png"
+    },
+    {
+      "id": "important-info",
+      "order": 11,
+      "title": {
+        "ru": "Важная информация для работы",
+        "en": "Important work information"
+      },
+      "content": {
+        "ru": "Правила, которые необходимо соблюдать:",
+        "en": "Rules that must be followed:"
+      },
+      "numberedSteps": {
+        "ru": [
+          "Нельзя брать комиссию с игроков",
+          "Будьте внимательны при переводе средств",
+          "Никогда не передавайте доступы третьим лицам",
+          "Запрещено работать с несовершеннолетними",
+          "Если сомневаетесь в честности игрока, сообщите нам"
+        ],
+        "en": [
+          "Cannot charge commission from players",
+          "Be careful when transferring funds",
+          "Never share access with third parties",
+          "Working with minors is prohibited",
+          "If you doubt a player's honesty, report to us"
+        ]
+      },
+      "image": "/images/step-11.png"
+    }
+  ]
+}
