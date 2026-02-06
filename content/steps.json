@@ -301,6 +301,7 @@
         "bn": "খেলোয়াড়ের কাছ থেকে যে পরিমাণ পেয়েছেন ঠিক সেই পরিমাণ টপ আপ করুন। খেলোয়াড়দের কাছ থেকে কমিশন নেওয়া নিষিদ্ধ — কমিশন {{brand}} দেয়!\n\nযদি একজন খেলোয়াড় আপনাকে টাকা দেয় এবং আপনি তাদের {{brand}} অ্যাকাউন্টে জমা না করেন — এটি নিয়ম লঙ্ঘন",
         "fr": "Rechargez exactement le montant que vous avez reçu du joueur. Facturer une commission aux joueurs est interdit — la commission est payée par {{brand}} !\n\nSi un joueur vous a donné de l'argent et que vous ne l'avez pas crédité sur son compte {{brand}} — c'est une violation des règles"
       },
+      "video": "https://www.youtube.com/embed/VIDEO_ID_DEPOSIT",
       "image": "/images/step-05.png"
     },
     {
@@ -473,7 +474,8 @@
         "bn": "আপনার প্রথম জমার মতো একই পদ্ধতি ব্যবহার করে {{brand}} এজেন্ট অ্যাকাউন্ট টপ আপ করুন। অন্য পদ্ধতি যোগ করতে, Reddy-তে Mobcash ম্যানেজারের সাথে যোগাযোগ করুন।",
         "fr": "Rechargez le compte agent {{brand}} en utilisant la même méthode que votre premier dépôt. Pour ajouter une autre méthode, contactez le gestionnaire Mobcash dans Reddy."
       },
-      "image": "/images/step-07.png"
+      "image": "/images/step-07.png",
+	"video":"https://youtube.com/embed/Kt7LPN6Rctg?si=aI5l3J-m7RrvqHFn"
     },
     {
       "id": "commission",
@@ -603,132 +605,156 @@
           {
             "title": "Device activation",
             "description": "When you log into Mobcash from a new device, you need to activate it with Mobcash manager",
-            "solution": "Take a screenshot and send it to Mobcash manager in Reddy"
+            "solution": "Take a screenshot and send it to Mobcash manager in Reddy",
+            "image": "/images/error-device-activation.png"
           },
           {
             "title": "Register blocked due to inactivity",
             "description": "Mobcash register is automatically blocked after 7 days of inactivity",
-            "solution": "Take a screenshot and send it to Mobcash manager in Reddy. Specify register number if you have multiple"
+            "solution": "Take a screenshot and send it to Mobcash manager in Reddy. Specify register number if you have multiple",
+            "image": "/images/error-register-blocked.png"
           },
           {
             "title": "You're out of radius",
             "description": "Mobcash works within 5 km radius from your specified location. You need to return to the app's coverage area",
-            "solution": "To change coordinates, send Mobcash manager: new coordinates and a selfie with document and current date"
+            "solution": "To change coordinates, send Mobcash manager: new coordinates and a selfie with document and current date",
+            "image": "/images/error-out-of-radius.png"
           },
           {
             "title": "No internet connection",
             "description": "Network connection issues",
-            "solution": "Check: mobile network access, Wi-Fi access, restart phone. If using VPN — try another country or disable. If nothing helps — reinstall Mobcash"
+            "solution": "Check: mobile network access, Wi-Fi access, restart phone. If using VPN — try another country or disable. If nothing helps — reinstall Mobcash",
+            "image": "/images/error-no-internet.png"
           }
         ],
         "ru": [
           {
             "title": "Активация устройства",
             "description": "Когда ты заходишь в Mobcash с нового устройства, необходимо активировать его у менеджера Mobcash",
-            "solution": "Сделай скриншот и пришли менеджеру Mobcash в Редди"
+            "solution": "Сделай скриншот и пришли менеджеру Mobcash в Редди",
+            "image": "/images/error-device-activation.png"
           },
           {
             "title": "Касса заблокирована за неактивность",
             "description": "Касса Mobcash автоматически блокируется за 7 дней неактивности",
-            "solution": "Сделай скриншот и пришли менеджеру Mobcash в Редди. Укажи номер кассы, если у тебя их несколько"
+            "solution": "Сделай скриншот и пришли менеджеру Mobcash в Редди. Укажи номер кассы, если у тебя их несколько",
+            "image": "/images/error-register-blocked.png"
           },
           {
             "title": "Ты вышел за радиус",
             "description": "Mobcash работает в радиусе 5 км от указанной тобой точки. Тебе надо вернуться в зону действия приложения",
-            "solution": "Для изменения координат отправь менеджеру Mobcash: новые координаты и селфи с документом и текущей датой"
+            "solution": "Для изменения координат отправь менеджеру Mobcash: новые координаты и селфи с документом и текущей датой",
+            "image": "/images/error-out-of-radius.png"
           },
           {
             "title": "Нет соединения с интернетом",
             "description": "Проблемы с подключением к сети",
-            "solution": "Проверь: доступ к мобильной сети, доступ к Wi-Fi, перезагрузи телефон. Если есть VPN — попробуй другую страну или отключи. Если не помогает — переустанови Mobcash"
+            "solution": "Проверь: доступ к мобильной сети, доступ к Wi-Fi, перезагрузи телефон. Если есть VPN — попробуй другую страну или отключи. Если не помогает — переустанови Mobcash",
+            "image": "/images/error-no-internet.png"
           }
         ],
         "ar": [
           {
             "title": "تفعيل الجهاز",
             "description": "عندما تسجل الدخول إلى Mobcash من جهاز جديد، تحتاج إلى تفعيله مع مدير Mobcash",
-            "solution": "التقط لقطة شاشة وأرسلها إلى مدير Mobcash في Reddy"
+            "solution": "التقط لقطة شاشة وأرسلها إلى مدير Mobcash في Reddy",
+            "image": "/images/error-device-activation.png"
           },
           {
             "title": "الصندوق محظور بسبب عدم النشاط",
             "description": "يتم حظر صندوق Mobcash تلقائيًا بعد 7 أيام من عدم النشاط",
-            "solution": "التقط لقطة شاشة وأرسلها إلى مدير Mobcash في Reddy. حدد رقم الصندوق إذا كان لديك عدة صناديق"
+            "solution": "التقط لقطة شاشة وأرسلها إلى مدير Mobcash في Reddy. حدد رقم الصندوق إذا كان لديك عدة صناديق",
+            "image": "/images/error-register-blocked.png"
           },
           {
             "title": "أنت خارج النطاق",
             "description": "يعمل Mobcash في نطاق 5 كم من موقعك المحدد. تحتاج إلى العودة إلى منطقة تغطية التطبيق",
-            "solution": "لتغيير الإحداثيات، أرسل إلى مدير Mobcash: إحداثيات جديدة وصورة سيلفي مع وثيقة والتاريخ الحالي"
+            "solution": "لتغيير الإحداثيات، أرسل إلى مدير Mobcash: إحداثيات جديدة وصورة سيلفي مع وثيقة والتاريخ الحالي",
+            "image": "/images/error-out-of-radius.png"
           },
           {
             "title": "لا يوجد اتصال بالإنترنت",
             "description": "مشاكل في الاتصال بالشبكة",
-            "solution": "تحقق من: الوصول إلى شبكة الهاتف المحمول، الوصول إلى Wi-Fi، أعد تشغيل الهاتف. إذا كنت تستخدم VPN — جرب بلدًا آخر أو أوقفه. إذا لم يساعد شيء — أعد تثبيت Mobcash"
+            "solution": "تحقق من: الوصول إلى شبكة الهاتف المحمول، الوصول إلى Wi-Fi، أعد تشغيل الهاتف. إذا كنت تستخدم VPN — جرب بلدًا آخر أو أوقفه. إذا لم يساعد شيء — أعد تثبيت Mobcash",
+            "image": "/images/error-no-internet.png"
           }
         ],
         "uz": [
           {
             "title": "Qurilmani faollashtirish",
             "description": "Yangi qurilmadan Mobcash-ga kirganingizda, uni Mobcash menejeri orqali faollashtirish kerak",
-            "solution": "Skrinshot oling va Reddy'da Mobcash menejeriga yuboring"
+            "solution": "Skrinshot oling va Reddy'da Mobcash menejeriga yuboring",
+            "image": "/images/error-device-activation.png"
           },
           {
             "title": "Kassa faolsizlik tufayli bloklangan",
             "description": "Mobcash kassasi 7 kun faolsizlikdan keyin avtomatik ravishda bloklanadi",
-            "solution": "Skrinshot oling va Reddy'da Mobcash menejeriga yuboring. Agar bir nechtasi bo'lsa, kassa raqamini ko'rsating"
+            "solution": "Skrinshot oling va Reddy'da Mobcash menejeriga yuboring. Agar bir nechtasi bo'lsa, kassa raqamini ko'rsating",
+            "image": "/images/error-register-blocked.png"
           },
           {
             "title": "Siz radiusdan chiqdingiz",
             "description": "Mobcash ko'rsatilgan nuqtangizdan 5 km radiusda ishlaydi. Ilova qamrov hududiga qaytishingiz kerak",
-            "solution": "Koordinatalarni o'zgartirish uchun Mobcash menejeriga yuboring: yangi koordinatalar va hujjat va joriy sana bilan selfi"
+            "solution": "Koordinatalarni o'zgartirish uchun Mobcash menejeriga yuboring: yangi koordinatalar va hujjat va joriy sana bilan selfi",
+            "image": "/images/error-out-of-radius.png"
           },
           {
             "title": "Internet aloqasi yo'q",
             "description": "Tarmoqqa ulanish muammolari",
-            "solution": "Tekshiring: mobil tarmoqqa kirish, Wi-Fi-ga kirish, telefonni qayta yoqing. Agar VPN ishlatayotgan bo'lsangiz — boshqa mamlakatni sinab ko'ring yoki o'chiring. Agar hech narsa yordam bermasa — Mobcash-ni qayta o'rnating"
+            "solution": "Tekshiring: mobil tarmoqqa kirish, Wi-Fi-ga kirish, telefonni qayta yoqing. Agar VPN ishlatayotgan bo'lsangiz — boshqa mamlakatni sinab ko'ring yoki o'chiring. Agar hech narsa yordam bermasa — Mobcash-ni qayta o'rnating",
+            "image": "/images/error-no-internet.png"
           }
         ],
         "bn": [
           {
             "title": "ডিভাইস সক্রিয়করণ",
             "description": "যখন আপনি একটি নতুন ডিভাইস থেকে Mobcash-এ লগ ইন করেন, আপনাকে Mobcash ম্যানেজারের সাথে এটি সক্রিয় করতে হবে",
-            "solution": "একটি স্ক্রিনশট নিন এবং Reddy-তে Mobcash ম্যানেজারকে পাঠান"
+            "solution": "একটি স্ক্রিনশট নিন এবং Reddy-তে Mobcash ম্যানেজারকে পাঠান",
+            "image": "/images/error-device-activation.png"
           },
           {
             "title": "নিষ্ক্রিয়তার কারণে রেজিস্টার ব্লক করা হয়েছে",
             "description": "Mobcash রেজিস্টার 7 দিন নিষ্ক্রিয়তার পরে স্বয়ংক্রিয়ভাবে ব্লক হয়ে যায়",
-            "solution": "একটি স্ক্রিনশট নিন এবং Reddy-তে Mobcash ম্যানেজারকে পাঠান। আপনার যদি একাধিক থাকে তবে রেজিস্টার নম্বর উল্লেখ করুন"
+            "solution": "একটি স্ক্রিনশট নিন এবং Reddy-তে Mobcash ম্যানেজারকে পাঠান। আপনার যদি একাধিক থাকে তবে রেজিস্টার নম্বর উল্লেখ করুন",
+            "image": "/images/error-register-blocked.png"
           },
           {
             "title": "আপনি ব্যাসার্ধের বাইরে",
             "description": "Mobcash আপনার নির্দিষ্ট অবস্থান থেকে 5 কিমি ব্যাসার্ধের মধ্যে কাজ করে। আপনাকে অ্যাপের কভারেজ এলাকায় ফিরে যেতে হবে",
-            "solution": "স্থানাঙ্ক পরিবর্তন করতে, Mobcash ম্যানেজারকে পাঠান: নতুন স্থানাঙ্ক এবং নথি এবং বর্তমান তারিখ সহ একটি সেলফি"
+            "solution": "স্থানাঙ্ক পরিবর্তন করতে, Mobcash ম্যানেজারকে পাঠান: নতুন স্থানাঙ্ক এবং নথি এবং বর্তমান তারিখ সহ একটি সেলফি",
+            "image": "/images/error-out-of-radius.png"
           },
           {
             "title": "ইন্টারনেট সংযোগ নেই",
             "description": "নেটওয়ার্ক সংযোগ সমস্যা",
-            "solution": "চেক করুন: মোবাইল নেটওয়ার্ক অ্যাক্সেস, Wi-Fi অ্যাক্সেস, ফোন রিস্টার্ট করুন। যদি VPN ব্যবহার করেন — অন্য দেশ চেষ্টা করুন বা নিষ্ক্রিয় করুন। যদি কিছু কাজ না করে — Mobcash পুনরায় ইনস্টল করুন"
+            "solution": "চেক করুন: মোবাইল নেটওয়ার্ক অ্যাক্সেস, Wi-Fi অ্যাক্সেস, ফোন রিস্টার্ট করুন। যদি VPN ব্যবহার করেন — অন্য দেশ চেষ্টা করুন বা নিষ্ক্রিয় করুন। যদি কিছু কাজ না করে — Mobcash পুনরায় ইনস্টল করুন",
+            "image": "/images/error-no-internet.png"
           }
         ],
         "fr": [
           {
             "title": "Activation de l'appareil",
             "description": "Lorsque vous vous connectez à Mobcash depuis un nouvel appareil, vous devez l'activer avec le gestionnaire Mobcash",
-            "solution": "Prenez une capture d'écran et envoyez-la au gestionnaire Mobcash dans Reddy"
+            "solution": "Prenez une capture d'écran et envoyez-la au gestionnaire Mobcash dans Reddy",
+            "image": "/images/error-device-activation.png"
           },
           {
             "title": "Caisse bloquée pour inactivité",
             "description": "La caisse Mobcash est automatiquement bloquée après 7 jours d'inactivité",
-            "solution": "Prenez une capture d'écran et envoyez-la au gestionnaire Mobcash dans Reddy. Précisez le numéro de caisse si vous en avez plusieurs"
+            "solution": "Prenez une capture d'écran et envoyez-la au gestionnaire Mobcash dans Reddy. Précisez le numéro de caisse si vous en avez plusieurs",
+            "image": "/images/error-register-blocked.png"
           },
           {
             "title": "Vous êtes hors du rayon",
             "description": "Mobcash fonctionne dans un rayon de 5 km de votre emplacement spécifié. Vous devez retourner dans la zone de couverture de l'application",
-            "solution": "Pour changer les coordonnées, envoyez au gestionnaire Mobcash : nouvelles coordonnées et un selfie avec document et date actuelle"
+            "solution": "Pour changer les coordonnées, envoyez au gestionnaire Mobcash : nouvelles coordonnées et un selfie avec document et date actuelle",
+            "image": "/images/error-out-of-radius.png"
           },
           {
             "title": "Pas de connexion Internet",
             "description": "Problèmes de connexion réseau",
-            "solution": "Vérifiez : accès au réseau mobile, accès Wi-Fi, redémarrez le téléphone. Si vous utilisez un VPN — essayez un autre pays ou désactivez. Si rien n'aide — réinstallez Mobcash"
+            "solution": "Vérifiez : accès au réseau mobile, accès Wi-Fi, redémarrez le téléphone. Si vous utilisez un VPN — essayez un autre pays ou désactivez. Si rien n'aide — réinstallez Mobcash",
+            "image": "/images/error-no-internet.png"
           }
         ]
       },

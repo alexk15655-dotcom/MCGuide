@@ -9,162 +9,176 @@
   "wowbet": {
     "name": "WowBet",
     "logo": "/logos/wowbet.svg",
-    "primary": "#8A42FD",
-    "secondary": "#EAEAF9",
-    "background": "#080A26"
+    "primary": "#10B981",
+    "secondary": "#F59E0B",
+    "background": "#022C22"
+  },
+  "astekbet": {
+    "name": "AstekBet",
+    "logo": "/logos/astekbet.svg",
+    "primary": "#f5e73b",
+    "secondary": "#2f3b4a",
+    "background": "#235e71"
   },
   "ultrapari": {
     "name": "UltraPari",
     "logo": "/logos/ultrapari.svg",
-    "primary": "#8DFFB0",
-    "secondary": "#420031",
-    "background": "#1E1B4B"
+    "primary": "#8fffb0",
+    "secondary": "#ffc31f",
+    "background": "#29001d"
   },
   "1xslots": {
     "name": "1xSlots",
     "logo": "/logos/1xslots.svg",
-    "primary": "#EF4444",
-    "secondary": "#FBBF24",
-    "background": "#1C1917"
+    "primary": "#fce3a3",
+    "secondary": "#262628",
+    "background": "#0d0d11"
   },
   "apuesta360": {
     "name": "Apuesta 360",
     "logo": "/logos/apuesta360.svg",
-    "primary": "#004225",
-    "secondary": "#2D2D2D",
-    "background": "#0C1222"
+    "primary": "#004226",
+    "secondary": "#242424",
+    "background": "#141414"
   },
   "betjam": {
     "name": "BetJam",
     "logo": "/logos/betjam.svg",
-    "primary": "#5C00A3",
-    "secondary": "#FFB700",
-    "background": "#2E005C"
+    "primary": "#ffb800",
+    "secondary": "#6800b8",
+    "background": "#400070"
   },
   "dbbet": {
     "name": "DBbet",
     "logo": "/logos/dbbet.svg",
-    "primary": "#84CC16",
-    "secondary": "#F472B6",
-    "background": "#1A2E05"
+    "primary": "#ff335a",
+    "secondary": "#2b2b2b",
+    "background": "#121212"
   },
   "fairpari": {
     "name": "FairPari",
     "logo": "/logos/fairpari.svg",
-    "primary": "#FBBF24",
-    "secondary": "#3B82F6",
-    "background": "#292524"
+    "primary": "#a0f000",
+    "secondary": "#0077ff",
+    "background": "#000018"
   },
   "fastpari": {
     "name": "FastPari",
     "logo": "/logos/fastpari.svg",
-    "primary": "#14B8A6",
-    "secondary": "#F97316",
-    "background": "#042F2E"
+    "primary": "#02f26a",
+    "secondary": "#425c94",
+    "background": "#15213c"
   },
   "funpari": {
     "name": "FunPari",
     "logo": "/logos/funpari.svg",
-    "primary": "#E11D48",
-    "secondary": "#22D3EE",
-    "background": "#1F2937"
+    "primary": "#31ff09",
+    "secondary": "#696969",
+    "background": "#131313"
   },
   "jvspin": {
     "name": "JVSpin",
     "logo": "/logos/jvspin.svg",
-    "primary": "#7C3AED",
-    "secondary": "#34D399",
-    "background": "#0D0D1A"
+    "primary": "#feb104",
+    "secondary": "#2e3440",
+    "background": "#1c2129"
   },
   "paripulse": {
     "name": "PariPulse",
     "logo": "/logos/paripulse.svg",
-    "primary": "#0891B2",
-    "secondary": "#FB923C",
-    "background": "#0A1628"
+    "primary": "#ee3f3f",
+    "secondary": "#2e2e2e",
+    "background": "#000000"
   },
   "yohoho": {
     "name": "Yohoho.bet",
     "logo": "/logos/yohoho.svg",
-    "primary": "#D90200",
-    "secondary": "#FF9800",
-    "background": "#0F0F0F"
+    "primary": "#d60400",
+    "secondary": "#212121",
+    "background": "#1a1a1a"
   },
   "lilbet": {
     "name": "LilBet",
     "logo": "/logos/lilbet.svg",
-    "primary": "#34CC67",
-    "secondary": "#082B53",
+    "primary": "#33cc66",
+    "secondary": "#062241",
     "background": "#04182f"
   },
   "betongame": {
     "name": "BetOnGame",
     "logo": "/logos/betongame.svg",
-    "primary": "#DC2626",
-    "secondary": "#38BDF8",
-    "background": "#171717"
+    "primary": "#6819e6",
+    "secondary": "#2c303f",
+    "background": "#07080e"
   },
   "wepari": {
     "name": "WePari",
     "logo": "/logos/wepari.svg",
-    "primary": "#4F46E5",
-    "secondary": "#FCD34D",
-    "background": "#1E1E2E"
+    "primary": "#ff385d",
+    "secondary": "#1b3993",
+    "background": "#102156"
   },
   "coldbet": {
     "name": "ColdBet",
     "logo": "/logos/coldbet.svg",
-    "primary": "#0D9488",
-    "secondary": "#E879F9",
-    "background": "#0F2830"
+    "primary": "#e68f2c",
+    "secondary": "#013e51",
+    "background": "#00232d"
   },
   "luckypari": {
     "name": "LuckyPari",
     "logo": "/logos/luckypari.svg",
-    "primary": "#EA580C",
-    "secondary": "#818CF8",
-    "background": "#1C1412"
+    "primary": "#ffcc00",
+    "secondary": "#363a3e",
+    "background": "#141316"
   },
   "winebet": {
     "name": "Winebet",
     "logo": "/logos/winebet.svg",
-    "primary": "#BF2227",
-    "secondary": "#E8E8E8",
-    "background": "#1E2029"
+    "primary": "#bf2227",
+    "secondary": "#1e2029",
+    "background": "#16171c"
   },
   "wekawin": {
     "name": "Wekawin",
     "logo": "/logos/wekawin.svg",
-    "primary": "#A21CAF",
-    "secondary": "#4ADE80",
-    "background": "#1A0A1F"
+    "primary": "#fbc337",
+    "secondary": "#1a1a1a",
+    "background": "#0a0a0a"
   },
   "b86": {
     "name": "B86.bet",
     "logo": "/logos/b86.svg",
-    "primary": "#0284C7",
-    "secondary": "#F59E0B",
-    "background": "#0C1929"
+    "primary": "#45a148",
+    "secondary": "#576c56",
+    "background": "#323e32"
   },
   "grandpari": {
     "name": "GrandPari",
     "logo": "/logos/grandpari.svg",
-    "primary": "#65A30D",
-    "secondary": "#F43F5E",
-    "background": "#1A2E0A"
+    "primary": "#ff0044",
+    "secondary": "#141414",
+    "background": "#0f0f0f"
   },
   "greenbet": {
     "name": "GreenBet",
     "logo": "/logos/greenbet.svg",
-    "primary": "#D946EF",
-    "secondary": "#22C55E",
-    "background": "#1E0A2E"
+    "primary": "#ffbb2a",
+    "secondary": "#0b503b",
+    "background": "#083b2b"
   },
   "secretbet": {
     "name": "SecretBet",
     "logo": "/logos/secretbet.svg",
-    "primary": "#0369A1",
-    "secondary": "#FBBF24",
-    "background": "#0A1929"
+    "primary": "#ffcf70",
+    "secondary": "#1d1b1b",
+    "background": "#141313"
+  },
+  "fundix": {
+    "name": "Fundix",
+    "logo": "/logos/fundix.svg",
+    "primary": "#2364D3",
+    "secondary": "#FFFFFF",
+    "background": "#000000"
   }
 }

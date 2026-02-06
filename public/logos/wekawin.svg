@@ -1,10 +1,1 @@
-<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="48" height="48" rx="12" fill="currentColor"/>
-  <rect x="10" y="14" width="6" height="6" rx="1.5" fill="white"/>
-  <rect x="18" y="14" width="6" height="6" rx="1.5" fill="white"/>
-  <rect x="10" y="22" width="6" height="6" rx="1.5" fill="white"/>
-  <rect x="18" y="22" width="6" height="6" rx="1.5" fill="white"/>
-  <path d="M28 18L38 18" stroke="white" stroke-width="3" stroke-linecap="round"/>
-  <path d="M28 26L35 26" stroke="white" stroke-width="3" stroke-linecap="round"/>
-  <path d="M28 34L32 34" stroke="white" stroke-width="3" stroke-linecap="round"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 1593 219"><path fill="#1B5A43" d="M165.8 219h-61.7L47.7 0h64.2l28.2 129.8h1.6L176.2 0H226l34.5 129.8h1.6L290.3 0H353l-56.4 219H236l-34.5-117.3H200L165.8 219ZM436.2 134.5v29.8h97.2V219h-160V0h160v54.8h-97.2v28.1h97.2v51.6h-97.2ZM626 219h-62.7V0H626v92.6L691.2 0h69.6l-76.5 106.4L765.5 219h-72.1L626 123.9V219ZM998.9 219h-65.8l-10.7-34.4h-75.9L836 219h-64.3L848.4 0h73.7l76.8 219ZM883.5 64.1 862.2 133h44.2L885.1 64h-1.6Z"/><path fill="#FBC336" d="M1079.6 219h-61.7L961.4 0h64.3l28.2 129.8h1.6L1090 0h49.8l34.5 129.8h1.5L1204.1 0h62.7l-56.5 219h-60.5l-34.5-117.3h-1.5L1079.6 219ZM1350 219h-62.8V0h62.8v219ZM1448.8 219h-61.1V0h78.3l64.3 128.3h1.6V0h61.1v219h-78.4l-64.2-128.3h-1.6V219ZM118.2 219H56.4L0 0h64.3l28.2 129.8H94L128.5 0h49.9l34.5 129.8h1.5L242.6 0h62.7L249 219h-60.5L154 101.7h-1.5L118.2 219Z"/></svg>
