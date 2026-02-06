@@ -173,22 +173,38 @@ export default function GuideClient({
         {step.errorCards && (step.errorCards[lang] || step.errorCards[defaultLanguage]) && (
           <div className="grid gap-4 mt-6">
             {(step.errorCards[lang] || step.errorCards[defaultLanguage] || []).map((card: ErrorCard, idx: number) => (
-              <div 
-                key={idx} 
+              <div
+                key={idx}
                 className="glass rounded-xl p-5 card-hover animate-fade-in-up"
                 style={{ animationDelay: `${idx * 0.15}s` }}
               >
-                <h4 className="font-bold text-lg mb-2" style={{ color: brand.secondary }}>
-                  {t(card.title)}
-                </h4>
-                <p className="text-white/70 text-sm mb-3">{t(card.description)}</p>
-                <div className="notes-box rounded-lg p-3">
-                  <p className="text-sm text-white/80">
-                    <span className="font-semibold">
-                      {lang === 'ar' ? 'الحل: ' : lang === 'uz' ? 'Yechim: ' : lang === 'bn' ? 'সমাধান: ' : lang === 'fr' ? 'Solution : ' : lang === 'ru' ? 'Решение: ' : 'Solution: '}
-                    </span>
-                    {t(card.solution)}
-                  </p>
+                <div className={`flex ${card.image ? 'flex-col md:flex-row gap-4' : ''}`}>
+                  <div className="flex-1">
+                    <h4 className="font-bold text-lg mb-2" style={{ color: brand.secondary }}>
+                      {t(card.title)}
+                    </h4>
+                    <p className="text-white/70 text-sm mb-3">{t(card.description)}</p>
+                    <div className="notes-box rounded-lg p-3">
+                      <p className="text-sm text-white/80">
+                        <span className="font-semibold">
+                          {lang === 'ar' ? 'الحل: ' : lang === 'uz' ? 'Yechim: ' : lang === 'bn' ? 'সমাধান: ' : lang === 'fr' ? 'Solution : ' : lang === 'ru' ? 'Решение: ' : 'Solution: '}
+                        </span>
+                        {t(card.solution)}
+                      </p>
+                    </div>
+                  </div>
+                  {card.image && (
+                    <div className="flex-shrink-0 flex items-center justify-center">
+                      <img
+                        src={card.image}
+                        alt={t(card.title)}
+                        className="rounded-xl max-w-full md:max-w-[200px] max-h-[200px] object-contain"
+                        onError={(e) => {
+                          (e.target as HTMLImageElement).style.display = 'none';
+                        }}
+                      />
+                    </div>
+                  )}
                 </div>
               </div>
             ))}
@@ -237,17 +253,17 @@ export default function GuideClient({
       {/* Header */}
       <header className="fixed top-0 left-0 right-0 z-50 glass">
         <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
-          {/* Logo and Mobcash name */}
+          {/* Logo and brand name */}
           <div className="flex items-center gap-3">
-            <img 
-              src={brand.logo} 
-              alt={brand.name} 
-              className="w-8 h-8"
+            <img
+              src={brand.logo}
+              alt={brand.name}
+              className="h-8 md:h-9 w-auto max-w-[140px]"
               onError={(e) => {
                 (e.target as HTMLImageElement).style.display = 'none';
               }}
             />
-            <span className="text-lg font-bold text-white">Mobcash</span>
+            <span className="text-xl md:text-2xl font-bold gradient-text">{brand.name}</span>
           </div>
 
           {/* Right side controls */}
@@ -341,10 +357,22 @@ export default function GuideClient({
             key={`${currentStep}-${lang}`}
             className={`glass rounded-3xl p-6 md:p-10 ${isAnimating ? 'animate-fade-in-up' : ''}`}
           >
-            <h1 className="text-2xl md:text-3xl font-bold mb-6 gradient-text">
+            <h1 className="text-2xl md:text-3xl font-bold mb-6" style={{ color: brand.primary }}>
               {t(step.title[lang] || step.title[defaultLanguage])}
             </h1>
             {renderContent(step)}
+            {step.image && (
+              <div className="mt-6 flex justify-center animate-fade-in-up" style={{ animationDelay: '0.3s' }}>
+                <img
+                  src={step.image}
+                  alt={t(step.title[lang] || step.title[defaultLanguage])}
+                  className="rounded-2xl max-w-full md:max-w-md shadow-lg"
+                  onError={(e) => {
+                    (e.target as HTMLImageElement).style.display = 'none';
+                  }}
+                />
+              </div>
+            )}
           </div>
 
           {/* Navigation dots */}

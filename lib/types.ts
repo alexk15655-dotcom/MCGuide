@@ -14,6 +14,7 @@ export interface ErrorCard {
   title: string;
   description: string;
   solution: string;
+  image?: string;
 }
 
 export interface Step {
