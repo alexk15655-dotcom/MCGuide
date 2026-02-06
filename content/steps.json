@@ -732,8 +732,7 @@
           }
         ]
       },
-      "image": "/images/step-02.png",
-	  "image": "/images/step-01.png"
+      "image": "/images/step-10.svg"
     },
     {
       "id": "important-info",
