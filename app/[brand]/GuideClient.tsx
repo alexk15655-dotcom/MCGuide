@@ -199,6 +199,7 @@ export default function GuideClient({
                         src={card.image}
                         alt={t(card.title)}
                         className="rounded-xl max-w-full md:max-w-[200px] max-h-[200px] object-contain"
+                        loading="lazy"
                         onError={(e) => {
                           (e.target as HTMLImageElement).style.display = 'none';
                         }}
@@ -263,7 +264,7 @@ export default function GuideClient({
                 (e.target as HTMLImageElement).style.display = 'none';
               }}
             />
-            <span className="text-xl md:text-2xl font-bold gradient-text">{brand.name}</span>
+            <span className="text-xl md:text-2xl font-bold gradient-text">Mobcash</span>
           </div>
 
           {/* Right side controls */}
@@ -281,7 +282,7 @@ export default function GuideClient({
               </button>
               
               {tocOpen && (
-                <div className="absolute right-0 top-full mt-2 w-72 max-h-96 overflow-y-auto glass rounded-xl py-2 shadow-xl">
+                <div className="absolute right-0 top-full mt-2 w-72 max-h-96 overflow-y-auto rounded-xl py-2 shadow-xl" style={{ background: brand.background, border: '1px solid rgba(255,255,255,0.15)' }}>
                   {steps.map((s, idx) => (
                     <button
                       key={s.id}
@@ -318,7 +319,7 @@ export default function GuideClient({
               </button>
               
               {langMenuOpen && (
-                <div className="absolute right-0 top-full mt-2 w-36 glass rounded-xl py-2 shadow-xl">
+                <div className="absolute right-0 top-full mt-2 w-36 rounded-xl py-2 shadow-xl" style={{ background: brand.background, border: '1px solid rgba(255,255,255,0.15)' }}>
                   {languages.map((l) => (
                     <button
                       key={l}
@@ -353,9 +354,9 @@ export default function GuideClient({
           </div>
 
           {/* Step content */}
-          <div 
+          <div
             key={`${currentStep}-${lang}`}
-            className={`glass rounded-3xl p-6 md:p-10 ${isAnimating ? 'animate-fade-in-up' : ''}`}
+            className="glass rounded-3xl p-6 md:p-10 animate-step-transition"
           >
             <h1 className="text-2xl md:text-3xl font-bold mb-6" style={{ color: brand.primary }}>
               {t(step.title[lang] || step.title[defaultLanguage])}
@@ -367,10 +368,24 @@ export default function GuideClient({
                   src={step.image}
                   alt={t(step.title[lang] || step.title[defaultLanguage])}
                   className="rounded-2xl max-w-full md:max-w-md shadow-lg"
+                  loading="lazy"
                   onError={(e) => {
                     (e.target as HTMLImageElement).style.display = 'none';
                   }}
                 />
+              </div>
+            )}
+            {step.video && (
+              <div className="mt-6 animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
+                <div className="relative w-full rounded-2xl overflow-hidden shadow-lg" style={{ paddingBottom: '56.25%' }}>
+                  <iframe
+                    src={step.video}
+                    className="absolute inset-0 w-full h-full"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                    loading="lazy"
+                  />
+                </div>
               </div>
             )}
           </div>
