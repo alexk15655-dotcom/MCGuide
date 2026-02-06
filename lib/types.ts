@@ -25,6 +25,7 @@ export interface Step {
   notes?: { [lang: string]: string };
   warning?: { [lang: string]: string };
   image?: string;
+  video?: string;
   listItems?: { [lang: string]: string[] };
   numberedSteps?: { [lang: string]: string[] };
   columns?: { [lang: string]: { decrease: string; increase: string } };
